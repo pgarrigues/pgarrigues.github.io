@@ -1,47 +1,54 @@
-
-
 /*# sourceMappingURL=style.css.map */
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
-body{
-	background: rgb(104,255,90);
-	font-family: 'Bungee', sans-serif;
+body {
+  background: rgb(138, 182, 134);
+  font-family: "DotGothic16", sans-serif;
 }
 
-h1{
-	font-size: 6rem;
-	position: absolute;
-	top:50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-	text-align: center;
-	margin: 0;
-	text-transform: uppercase;
-	text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0
+h1 {
+  font-size: 6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
 }
 
-.line{
-	background: yellow;
-	height: 1rem;
-	position: absolute;
-	top: 50%;
-	left: -1;
-	transform: translate(-25%, -50%);
-	z-index: 2;
-	width: 0;
-	border-radius: 50px;
-	animation: line 10s linear forwards;
+.line {
+  background: yellow;
+  height: 1rem;
+  position: absolute;
+  top: 50%;
+  left: -1;
+  transform: translate(-25%, -50%);
+  z-index: 2;
+  width: 0;
+  border-radius: 50px;
+  animation: line 10s linear forwards;
 }
 
-@keyframes line{
-	to{
-		width: 132vw;
-	}
+@keyframes line {
+  to {
+    width: 132vw;
+  }
 }
 
+.letter {
+  z-index: 3;
+}
 
-.letter{
-	z-index: 3;
+.cv {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  border: 4mm ridge rgba(170, 50, 220, 0.6);
 }
