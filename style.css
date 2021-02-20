@@ -2,68 +2,36 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background: rgb(138, 182, 134);
   font-family: "DotGothic16", sans-serif;
 }
 
-.cv {
+/* ***************** */
+/* Partie du haut : Pierre-Loup GARRIGUES */
+/* ***************** */
+
+h1 {
   position: absolute;
+  top: 15%;
   left: 50%;
-  transform: translateX(-50%);
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  border: 4mm ridge rgba(170, 50, 220, 0.6);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
 }
-
-.cv a {
-  text-decoration: none;
-}
-
-@media (min-width: 1051px) {
-  h1 {
-    font-size: 6rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    text-transform: uppercase;
-    text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
-  }
-}
-
-@media (max-width: 1051px) {
-  h1 {
-    font-size: 5rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    text-transform: uppercase;
-    text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
-  }
-}
-
-/*@media (max-width: 500px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-}*/
 
 .line {
   background: yellow;
-  height: 1rem;
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: -1;
   transform: translate(-25%, -50%);
   z-index: 2;
@@ -80,4 +48,299 @@ body {
 
 .letter {
   z-index: 3;
+}
+
+/* ***************** */
+/* Liens infos perso */
+/* ***************** */
+
+.liensPerso {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4mm ridge rgba(170, 50, 220, 0.6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 500px;
+}
+
+.liensPerso a {
+  text-decoration: none;
+  font-weight: 400;
+  color: rgba(105, 37, 134, 0.6);
+}
+
+.liensPerso a:hover {
+  /* INVERSE MOT */
+}
+
+/* ***************** */
+/* MAP */
+/* ***************** */
+
+.maps {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 260px;
+}
+
+#earthMap {
+  width: 150px;
+}
+
+#earthMap:hover {
+  width: 155px;
+}
+
+#clickMeImage {
+  position: absolute;
+  width: 100px;
+  height: auto;
+}
+
+/* ***************** */
+/* NavBar */
+/* ***************** */
+
+.menu {
+  position: absolute;
+  height: 400px;
+  background-color: #2c3e50;
+  width: 350px;
+  z-index: 4;
+  border-radius: 30px;
+  margin-left: -350px;
+  transition-duration: 0.2s;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.menu_open {
+  margin-left: 100px;
+  transition-duration: 1s;
+}
+
+.menu_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.menu p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.menu_title button {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: none;
+}
+
+.menu_title button:hover {
+  cursor: pointer;
+}
+
+.clusterPotagers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+.clusterPotagers a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.clusterPotagers button {
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+.clusterPotagers button:hover {
+  cursor: help;
+}
+
+.maillesHexa {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+.maillesHexa a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.maillesHexa button {
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+.maillesHexa button:hover {
+  cursor: help;
+}
+
+.dualMap {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+.dualMap a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dualMap button {
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+.dualMap button:hover {
+  cursor: help;
+}
+
+.earthquakes {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+.earthquakes a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.earthquakes button {
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+.earthquakes button:hover {
+  cursor: help;
+}
+
+.vendeeGlobe {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+.vendeeGlobe a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.vendeeGlobe button {
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+.vendeeGlobe button:hover {
+  cursor: help;
+}
+
+/* GESTION DES TAILLES D'ECRAN */
+
+@media (min-width: 1051px) {
+  h1 {
+    font-size: 6rem;
+    text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
+  }
+  .line {
+    height: 20px;
+  }
+}
+
+@media (max-width: 1051px) {
+  h1 {
+    font-size: 5rem;
+    text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
+  }
+  .line {
+    height: 17px;
+  }
+}
+
+@media (max-width: 874px) {
+  h1 {
+    font-size: 4rem;
+    text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
+  }
+  .line {
+    height: 14px;
+  }
+}
+
+@media (max-width: 699px) {
+  h1 {
+    font-size: 3rem;
+    text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
+  }
+  .line {
+    height: 11px;
+  }
+}
+
+@media (max-width: 524px) {
+  h1 {
+    font-size: 2.5rem;
+    text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
+  }
+  .line {
+    height: 9px;
+  }
+}
+
+@media (max-width: 438px) {
+  h1 {
+    font-size: 2rem;
+    text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
+  }
+  .line {
+    height: 7px;
+  }
 }
