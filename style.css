@@ -347,11 +347,11 @@ h1 {
 
   .menu {
     height: 480px;
-    width: 400px;
+    width: 390px;
   }
 
   .menu_open {
-    top: 25%;
+    top: 27%;
   }
 
   .clusterPotagers,
@@ -367,14 +367,14 @@ h1 {
 
   .hidden {
     height: 480px;
-    width: 400px;
-    top: 25%;
+    width: 390px;
+    top: 27%;
   }
 
   .appear {
     height: 480px;
-    width: 400px;
-    top: 25%;
+    width: 390px;
+    top: 27%;
   }
 }
 
@@ -394,7 +394,7 @@ h1 {
   }
 
   .menu_open {
-    top: 25%;
+    top: 27%;
   }
 
   .clusterPotagers,
@@ -411,12 +411,12 @@ h1 {
   .hidden {
     height: 500px;
     width: 370px;
-    top: 25%;
+    top: 27%;
   }
 
   .appear {
     height: 480px;
     width: 370px;
-    top: 25%;
+    top: 27%;
   }
 }
