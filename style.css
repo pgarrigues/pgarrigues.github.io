@@ -1,6 +1,4 @@
-/*# sourceMappingURL=style.css.map */
-
-@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap");
 
 html,
 body {
@@ -10,7 +8,7 @@ body {
 
 body {
   background: rgb(138, 182, 134);
-  font-family: "DotGothic16", sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 /* ***************** */
@@ -18,13 +16,13 @@ body {
 /* ***************** */
 
 h1 {
+  margin: 0;
   position: absolute;
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-  margin: 0;
   text-transform: uppercase;
 }
 
@@ -66,16 +64,13 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 500px;
+  font-size: 17px;
 }
 
 .liensPerso a {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
   color: rgba(105, 37, 134, 0.6);
-}
-
-.liensPerso a:hover {
-  /* INVERSE MOT */
 }
 
 /* ***************** */
@@ -139,6 +134,7 @@ h1 {
 .menu p {
   font-size: 20px;
   color: #ffffff;
+  font-size: 25px;
 }
 
 .menu_title button {
@@ -152,113 +148,10 @@ h1 {
   cursor: pointer;
 }
 
-.clusterPotagers {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 15px;
-  margin-right: 15px;
-  color: #ffffff;
-}
-
-.clusterPotagers a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.clusterPotagers button {
-  height: 30px;
-  width: 40px;
-  border-radius: 10px;
-  background-color: white;
-  border: none;
-}
-
-.clusterPotagers button:hover {
-  cursor: help;
-}
-
-.maillesHexa {
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 15px;
-  margin-right: 15px;
-  color: #ffffff;
-}
-
-.maillesHexa a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.maillesHexa button {
-  height: 30px;
-  width: 40px;
-  border-radius: 10px;
-  background-color: white;
-  border: none;
-}
-
-.maillesHexa button:hover {
-  cursor: help;
-}
-
-.dualMap {
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 15px;
-  margin-right: 15px;
-  color: #ffffff;
-}
-
-.dualMap a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.dualMap button {
-  height: 30px;
-  width: 40px;
-  border-radius: 10px;
-  background-color: white;
-  border: none;
-}
-
-.dualMap button:hover {
-  cursor: help;
-}
-
-.earthquakes {
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 15px;
-  margin-right: 15px;
-  color: #ffffff;
-}
-
-.earthquakes a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.earthquakes button {
-  height: 30px;
-  width: 40px;
-  border-radius: 10px;
-  background-color: white;
-  border: none;
-}
-
-.earthquakes button:hover {
-  cursor: help;
-}
-
+.clusterPotagers,
+.maillesHexa,
+.dualMap,
+.earthquakes,
 .vendeeGlobe {
   margin-top: 15px;
   display: flex;
@@ -267,13 +160,22 @@ h1 {
   margin-left: 15px;
   margin-right: 15px;
   color: #ffffff;
+  font-size: 17px;
 }
 
+.clusterPotagers a,
+.maillesHexa a,
+.dualMap a,
+.earthquakes a,
 .vendeeGlobe a {
   color: #ffffff;
   text-decoration: none;
 }
 
+.clusterPotagers button,
+.maillesHexa button,
+.dualMap button,
+.earthquakes button,
 .vendeeGlobe button {
   height: 30px;
   width: 40px;
@@ -282,8 +184,84 @@ h1 {
   border: none;
 }
 
+.clusterPotagers button:hover,
+.maillesHexa button:hover,
+.dualMap button:hover,
+.earthquakes button:hover,
 .vendeeGlobe button:hover {
   cursor: help;
+}
+
+/* POPUPS */
+
+.hidden {
+  position: absolute;
+  height: 430px;
+  width: 450px;
+  border-radius: 30px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  z-index: 4;
+
+  top: 32%;
+  left: -100%;
+  transform: translateX(-50%);
+  transition-duration: 1s;
+}
+
+.appear {
+  position: absolute;
+  height: 430px;
+  width: 450px;
+  border-radius: 30px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  z-index: 4;
+
+  top: 32%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition-duration: 1s;
+}
+
+.popUp_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.popUp_title p {
+  font-size: 25px;
+}
+
+#closePopUpclusterPotagers,
+#closePopUpMaillesHexa,
+#closePopUpDualMap,
+#closePopUpEarthquakes,
+#closePopUpVendeeGlobe {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: none;
+}
+
+#closePopUpclusterPotagers:hover,
+#closePopUpMaillesHexa:hover,
+#closePopUpDualMap:hover,
+#closePopUpEarthquakes:hover,
+#closePopUpVendeeGlobe:hover {
+  cursor: pointer;
+}
+
+#popUpclusterPotagers p,
+#popUpMaillesHexa p,
+#popUpDualMap p,
+#popUpEarthquakes p,
+#popUpVendeeGlobe p {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /* GESTION DES TAILLES D'ECRAN */
@@ -337,24 +315,23 @@ h1 {
     height: 9px;
   }
   .menu {
-    position: absolute;
     height: 420px;
     width: 430px;
-    border-radius: 30px;
-    background-color: #2c3e50;
-    z-index: 4;
-
-    top: -150%;
-    left: 50%;
-    transform: translateX(-50%);
-    transition-duration: 1s;
   }
 
   .menu_open {
+    /* A changer peut être ?? */
     top: 32%;
-    left: 50%;
-    transform: translateX(-50%);
-    transition-duration: 1s;
+  }
+
+  .hidden {
+    height: 420px;
+    width: 430px;
+  }
+
+  .appear {
+    height: 420px;
+    width: 430px;
   }
 }
 
@@ -363,28 +340,41 @@ h1 {
     font-size: 2rem;
     text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
   }
+
   .line {
     height: 7px;
   }
-  .menu {
-    position: absolute;
-    height: 420px;
-    width: 430px;
-    border-radius: 30px;
-    background-color: #2c3e50;
-    z-index: 4;
 
-    top: -150%;
-    left: 50%;
-    transform: translateX(-50%);
-    transition-duration: 1s;
+  .menu {
+    height: 480px;
+    width: 400px;
   }
 
   .menu_open {
-    top: 32%;
-    left: 50%;
-    transform: translateX(-50%);
-    transition-duration: 1s;
+    top: 25%;
+  }
+
+  .clusterPotagers,
+  .maillesHexa,
+  .dualMap,
+  .earthquakes,
+  .vendeeGlobe {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+  }
+
+  .hidden {
+    height: 480px;
+    width: 400px;
+    top: 25%;
+  }
+
+  .appear {
+    height: 480px;
+    width: 400px;
+    top: 25%;
   }
 }
 
@@ -393,27 +383,40 @@ h1 {
     font-size: 1.8rem;
     text-shadow: 4px 4px 0 rgba(255, 166, 0.85), 7px 7px 0;
   }
+
   .line {
     height: 7px;
   }
-  .menu {
-    position: absolute;
-    height: 420px;
-    width: 370px;
-    border-radius: 30px;
-    background-color: #2c3e50;
-    z-index: 4;
 
-    top: -150%;
-    left: 50%;
-    transform: translateX(-50%);
-    transition-duration: 1s;
+  .menu {
+    height: 480px;
+    width: 370px;
   }
 
   .menu_open {
-    top: 32%;
-    left: 50%;
-    transform: translateX(-50%);
-    transition-duration: 1s;
+    top: 25%;
+  }
+
+  .clusterPotagers,
+  .maillesHexa,
+  .dualMap,
+  .earthquakes,
+  .vendeeGlobe {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+  }
+
+  .hidden {
+    height: 500px;
+    width: 370px;
+    top: 25%;
+  }
+
+  .appear {
+    height: 480px;
+    width: 370px;
+    top: 25%;
   }
 }
