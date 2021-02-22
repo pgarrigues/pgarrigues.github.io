@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     /> -->
+
     <link href="./style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./img/earth.png" />
   </head>
@@ -26,9 +27,17 @@
         <button id="closeMenu">X</button>
       </div>
 
+      <div class="earthquakes">
+        <a href="./maps/earthquakes.html" target="_blank"
+          >1. Tremblements de terre <br />
+          en 2020 (Heatmap)</a
+        >
+        <button id="btnEarthquakes">Info</button>
+      </div>
+
       <div class="clusterPotagers">
         <a href="./maps/carteClustersPotagers.html" target="_blank"
-          >1. Potagers en Île de France<br />
+          >2. Potagers en Île de France<br />
           (Marker Clustering)
         </a>
         <button id="btnClusterPotagers">Info</button>
@@ -36,7 +45,7 @@
 
       <div class="maillesHexa">
         <a href="./maps/cartePotagersMaillesHexa.html" target="_blank"
-          >2. Potagers en Île de France<br />
+          >3. Potagers en Île de France<br />
           (Méthode des mailles hexagonales)</a
         >
         <button id="btnMaillesHexa">Info</button>
@@ -44,18 +53,10 @@
 
       <div class="dualMap">
         <a href="./maps/carteDualMapPotagers.html" target="_blank"
-          >3. Potagers en Île de France<br />
+          >4. Potagers en Île de France<br />
           et marqueurs socio-économiques
         </a>
         <button id="btnDualMap">Info</button>
-      </div>
-
-      <div class="earthquakes">
-        <a href="./maps/earthquakes.html" target="_blank"
-          >4. Tremblements de terre <br />
-          en 2020 (Heatmap)</a
-        >
-        <button id="btnEarthquakes">Info</button>
       </div>
 
       <div class="vendeeGlobe">
@@ -71,77 +72,143 @@
 
     <!-- PopUps Info cartes -->
 
+    <div id="popUpEarthquakes" class="hidden">
+      <div class="popUp_title">
+        <p class="popUp_subtitle">Tremblements de terre</p>
+        <button id="closePopUpEarthquakes">X</button>
+      </div>
+      <p>
+        Cette carte de chaleur a été réalisée à l’aide du plugin
+        <span class="italique bold">HeatMapWithTime</span> de la librairie
+        <span class="italique bold">Folium</span>.
+      </p>
+      <p>
+        Les données proviennent du site
+        <a
+          id="USGS"
+          href="https://earthquake.usgs.gov/earthquakes/search/"
+          target="_blank"
+          class="italique bold"
+          >USGS</a
+        >
+        recensant l'ensemble des tremblements de terre du monde.
+      </p>
+      <p>
+        Cliquez sur le bouton « PLAY » pour visualiser, mois par mois,
+        l’ensemble des tremblements de terre de magnitude supérieure à 4.5 sur
+        l’échelle de Richter.
+      </p>
+      <p>
+        Le script <span class="italique bold">Python</span> à l'origine de cette
+        carte est disponible sur
+        <a
+          class="GitHub italique bold"
+          href="https://github.com/pgarrigues/foliumMaps/blob/master/earthquakesHeatMap.ipynb"
+          target="_blank"
+          >GitHub</a
+        >.
+      </p>
+    </div>
+
     <div id="popUpclusterPotagers" class="hidden">
       <div class="popUp_title">
-        <p>Potagers en Île de France</p>
+        <p class="popUp_subtitle">Potagers en Île de France</p>
         <button id="closePopUpclusterPotagers">X</button>
       </div>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
+        Cette carte interactive a été réalisée à l’aide du plugin
+        <span class="italique bold">MarkerCluster</span> de la librairie
+        <span class="italique bold">Folium</span> et de données provenant de la
+        base de données <span class="italique bold">TerriBio</span>.
       </p>
-      <br />
-      <p>...1....</p>
+      <p>
+        Cette carte recense l'ensemble des potagers de deux zones d'étude en
+        Île-de-France : Saclay et Roissy.
+      </p>
+      <p>
+        Le plugin <span class="italique bold">MarkerCluster</span> permet de
+        mettre en évidence des regroupements de potagers sur le territoire
+        d'étude.
+      </p>
+      <p>
+        Le script <span class="italique bold">Python</span> à l'origine de cette
+        carte est disponible sur
+        <a
+          class="GitHub italique bold"
+          href="https://github.com/pgarrigues/foliumMaps/blob/master/potagersClustersMap.ipynb"
+          target="_blank"
+          >GitHub</a
+        >.
+      </p>
     </div>
 
     <div id="popUpMaillesHexa" class="hidden">
       <div class="popUp_title">
-        <p>Potagers en Île de France</p>
+        <p class="popUp_subtitle">Potagers en Île de France</p>
         <button id="closePopUpMaillesHexa">X</button>
       </div>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
+        Cette carte interactive a été réalisée à l’aide de la librairie
+        <span class="italique bold">Folium</span> et de données provenant de la
+        base de données <span class="italique bold">TerriBio</span>.
       </p>
-      <br />
-      <p>...2....</p>
+      <p>
+        Cette dernière recense l'ensemble des potagers de deux zones d'étude en
+        Île-de-France : Saclay et Roissy.
+      </p>
+      <p>
+        La méthode des
+        <span class="italique bold">mailles hexagonales</span> permet de mettre
+        en évidence des différences notables dans les concentrations de potagers
+        dans nos zones d'études.
+      </p>
+      <p>
+        Le script <span class="italique bold">Python</span> à l'origine de cette
+        carte est disponible sur
+        <a
+          class="GitHub italique bold"
+          href="https://github.com/pgarrigues/foliumMaps/blob/master/potagersMaillesHexaMap.ipynb"
+          target="_blank"
+          >GitHub</a
+        >.
+      </p>
     </div>
 
     <div id="popUpDualMap" class="hidden">
       <div class="popUp_title">
-        <p>Potagers en Île de France</p>
+        <p class="popUp_subtitle">Potagers en Île de France</p>
         <button id="closePopUpDualMap">X</button>
       </div>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
+        Cette carte interactive a été réalisée à l’aide du plugin
+        <span class="italique bold">DualMap</span> de la librairie
+        <span class="italique bold">Folium</span> et de données provenant de la
+        base de données <span class="italique bold">TerriBio</span>.
       </p>
-      <br />
-      <p>...3....</p>
-    </div>
-
-    <div id="popUpEarthquakes" class="hidden">
-      <div class="popUp_title">
-        <p>Earthquakes</p>
-        <button id="closePopUpEarthquakes">X</button>
-      </div>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
+        Cette DualMap permet de montrer l'effet de certains marqueurs
+        socio-économiques sur la concentration et la taille des potagers sur
+        deux zones d'études.
       </p>
-      <br />
-      <p>...4....</p>
+      <p>
+        Pour plus d'informations, je vous invite à lire cette
+        <a id="etudePotagers" class="italique bold" href="#">étude</a>.
+      </p>
+      <p>
+        Le script <span class="italique bold">Python</span> à l'origine de cette
+        carte est disponible sur
+        <a
+          class="GitHub italique bold"
+          href="https://github.com/pgarrigues/foliumMaps/blob/master/potagersDualMap.ipynb"
+          target="_blank"
+          >GitHub</a
+        >.
+      </p>
     </div>
 
     <div id="popUpVendeeGlobe" class="hidden">
       <div class="popUp_title">
-        <p>Vendée Globe</p>
+        <p class="popUp_subtitle">Vendée Globe</p>
         <button id="closePopUpVendeeGlobe">X</button>
       </div>
       <p>

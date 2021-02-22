@@ -11,6 +11,14 @@ body {
   font-family: "Rajdhani", sans-serif;
 }
 
+.italique {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /* ***************** */
 /* Partie du haut : Pierre-Loup GARRIGUES */
 /* ***************** */
@@ -131,6 +139,15 @@ h1 {
   margin-right: 30px;
 }
 
+.logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #df5d5d;
+  border-radius: 20px;
+}
+
 .menu p {
   font-size: 20px;
   color: #ffffff;
@@ -232,8 +249,13 @@ h1 {
   margin-right: 30px;
 }
 
-.popUp_title p {
-  font-size: 25px;
+.popUp_subtitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #df5d5d;
+  border-radius: 20px;
 }
 
 #closePopUpclusterPotagers,
@@ -262,6 +284,14 @@ h1 {
 #popUpVendeeGlobe p {
   margin-left: 15px;
   margin-right: 15px;
+  font-size: 18px;
+}
+
+#USGS,
+.GitHub,
+#etudePotagers {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* GESTION DES TAILLES D'ECRAN */
