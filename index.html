@@ -35,9 +35,17 @@
         <button id="btnEarthquakes">Info</button>
       </div>
 
+      <div class="vendeeGlobe">
+        <a href="./maps/VG.html" target="_blank"
+          >2. Suivi des bateaux du <br />
+          Vendée Globe</a
+        >
+        <button id="btnVendeeGlobe">Info</button>
+      </div>
+
       <div class="clusterPotagers">
         <a href="./maps/carteClustersPotagers.html" target="_blank"
-          >2. Potagers en Île-de-France<br />
+          >3. Potagers en Île-de-France<br />
           (Marker Clustering)
         </a>
         <button id="btnClusterPotagers">Info</button>
@@ -45,7 +53,7 @@
 
       <div class="maillesHexa">
         <a href="./maps/cartePotagersMaillesHexa.html" target="_blank"
-          >3. Potagers en Île-de-France<br />
+          >4. Potagers en Île-de-France<br />
           (Méthode des mailles hexagonales)</a
         >
         <button id="btnMaillesHexa">Info</button>
@@ -53,18 +61,10 @@
 
       <div class="dualMap">
         <a href="./maps/carteDualMapPotagers.html" target="_blank"
-          >4. Potagers en Île-de-France<br />
+          >5. Potagers en Île-de-France<br />
           et marqueurs socio-économiques
         </a>
         <button id="btnDualMap">Info</button>
-      </div>
-
-      <div class="vendeeGlobe">
-        <a href="./maps/VG.html" target="_blank"
-          >5. Suivi des bateaux du <br />
-          Vendée Globe</a
-        >
-        <button id="btnVendeeGlobe">Info</button>
       </div>
     </div>
 
@@ -94,9 +94,9 @@
         recensant l'ensemble des tremblements de terre du monde.
       </p>
       <p>
-        Cliquez sur le bouton « PLAY » pour visualiser, mois par mois,
-        l’ensemble des tremblements de terre de magnitude supérieure à 4.5 sur
-        l’échelle de Richter.
+        Cette carte permet de visualiser, mois par mois, l’ensemble des
+        tremblements de terre de magnitude supérieure à 4.5 sur l’échelle de
+        Richter.
       </p>
       <p>
         Le script <span class="italique bold">Python</span> à l'origine de cette
@@ -218,15 +218,36 @@
         <button id="closePopUpVendeeGlobe">X</button>
       </div>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quis
-        sit libero quasi iste nemo obcaecati error nostrum? Repellendus debitis
-        vero voluptatibus officia eum totam omnis architecto, quia iste maxime?
+        Cette carte représente la position des bateaux du Vendée Globe sur une
+        trentaine de jours. Elle a été réalisée à l’aide du plugin
+        <span class="italique bold">TimestampedGeoJson</span> de la librairie
+        <span class="italique bold">Folium</span>.
       </p>
-      <br />
-      <p>...5....</p>
+      <p>
+        Les données proviennent du site du
+        <a
+          id="USGS"
+          href="https://www.vendeeglobe.org/fr"
+          target="_blank"
+          class="italique bold"
+          >Vendée Globe</a
+        >
+        .
+      </p>
+      <p>
+        Lorsque vous cliquez sur "PAUSE", il est alors possible de connaitre le
+        nom du bateau en cliquant sur ce dernier.
+      </p>
+      <p>
+        Le script <span class="italique bold">Python</span> à l'origine de cette
+        carte est disponible sur
+        <a
+          class="GitHub italique bold"
+          href="https://github.com/pgarrigues/foliumMaps/blob/master/vendeeGlobeMap.ipynb"
+          target="_blank"
+          >GitHub</a
+        >.
+      </p>
     </div>
 
     <!-- Fin PopUps Info cartes -->
