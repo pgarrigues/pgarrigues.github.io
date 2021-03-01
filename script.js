@@ -28,6 +28,8 @@ let nav = document.querySelector(".nav");
 
 buttonEarth.onclick = function () {
   nav.classList.toggle("menu_open");
+  premierPlan.classList.toggle("blur");
+  newElement.classList.toggle("blur");
 };
 
 ////////////////////
@@ -38,6 +40,8 @@ let buttonCloseMenu = document.getElementById("closeMenu");
 
 buttonCloseMenu.onclick = function () {
   nav.classList.toggle("menu_open");
+  premierPlan.classList.toggle("blur");
+  newElement.classList.toggle("blur");
 };
 
 //////////////////////////

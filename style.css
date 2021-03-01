@@ -19,6 +19,11 @@ body {
   font-weight: bold;
 }
 
+.blur {
+  filter: blur(100px);
+  transition-duration: 0.5s;
+}
+
 /* ***************** */
 /* Partie du haut : Pierre-Loup GARRIGUES */
 /* ***************** */
@@ -125,7 +130,7 @@ h1 {
 }
 
 .menu_open {
-  top: 32%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   transition-duration: 1s;
@@ -220,7 +225,7 @@ h1 {
   color: #ffffff;
   z-index: 4;
 
-  top: 32%;
+  top: 20%;
   left: -100%;
   transform: translateX(-50%);
   transition-duration: 1s;
@@ -235,7 +240,7 @@ h1 {
   color: #ffffff;
   z-index: 4;
 
-  top: 32%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   transition-duration: 1s;
@@ -351,7 +356,7 @@ h1 {
 
   .menu_open {
     /* A changer peut être ?? */
-    top: 32%;
+    top: 20%;
   }
 
   .hidden {
