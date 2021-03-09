@@ -1,8 +1,15 @@
-///////////////
-// Effet sur H1
-///////////////
+// Variables
 
-const text = document.getElementById("text");
+const text = document.getElementById("PLG");
+const iconMap = document.getElementById("iconMap");
+const mapLocation = document.getElementById("location");
+const MenuCartes = document.getElementById("mapsMenu");
+const buttonCloseMenuCartes = document.getElementById("btnCloseMenu");
+const buttonAboutMe = document.getElementById("aboutMe");
+const popUpAboutMe = document.getElementById("aboutMePopUp");
+const buttonClosePopUpAboutMe = document.getElementById("btnCloseMenuAboutMe");
+
+// Effet sur H1
 
 const textArray = text.textContent.split("");
 
@@ -19,119 +26,42 @@ function randomVisibility() {
   return Math.random() < 0.5 ? "visibility:hidden" : "visibility:visible";
 }
 
-////////////////////
-// Ouverture du menu
-////////////////////
+/* clignotement */
+iconMap.addEventListener("mouseover", function () {
+  mapLocation.classList.add("clignotement");
+});
 
-let buttonEarth = document.getElementById("earthMap");
-let nav = document.querySelector(".nav");
+iconMap.addEventListener("mouseout", function () {
+  mapLocation.classList.remove("clignotement");
+});
 
-buttonEarth.onclick = function () {
-  nav.classList.toggle("menu_open");
+/// menu cartes
+// ouverture
+mapLocation.addEventListener("click", function () {
+  MenuCartes.classList.toggle("appear");
   premierPlan.classList.toggle("blur");
   newElement.classList.toggle("blur");
-};
+});
 
-////////////////////
-// Fermeture du menu
-////////////////////
-
-let buttonCloseMenu = document.getElementById("closeMenu");
-
-buttonCloseMenu.onclick = function () {
-  nav.classList.toggle("menu_open");
+// fermeture
+buttonCloseMenuCartes.addEventListener("click", function () {
+  MenuCartes.classList.toggle("appear");
   premierPlan.classList.toggle("blur");
   newElement.classList.toggle("blur");
-};
+});
 
-//////////////////////////
-// Gestion des popups info
-//////////////////////////
+/// popup about me
+// ouverture
 
-///// popup cluster potagers :
+buttonAboutMe.addEventListener("click", function () {
+  popUpAboutMe.classList.toggle("appear");
+  premierPlan.classList.toggle("blur");
+  newElement.classList.toggle("blur");
+});
 
-let popUpClusterPotagers = document.getElementById("popUpclusterPotagers");
-
-let buttonClusterPotagers = document.getElementById("btnClusterPotagers");
-
-let buttonClosePopUpClusterPotagers = document.getElementById(
-  "closePopUpclusterPotagers"
-);
-
-buttonClusterPotagers.onclick = function () {
-  popUpClusterPotagers.classList.toggle("appear");
-};
-
-buttonClosePopUpClusterPotagers.onclick = function () {
-  popUpClusterPotagers.classList.toggle("appear");
-};
-
-///// popup mailles hexa :
-
-let popUpMaillesHexa = document.getElementById("popUpMaillesHexa");
-
-let buttonMaillesHexa = document.getElementById("btnMaillesHexa");
-
-let buttonClosePopUpMaillesHexa = document.getElementById(
-  "closePopUpMaillesHexa"
-);
-
-buttonMaillesHexa.onclick = function () {
-  popUpMaillesHexa.classList.toggle("appear");
-};
-
-buttonClosePopUpMaillesHexa.onclick = function () {
-  popUpMaillesHexa.classList.toggle("appear");
-};
-
-///// popup dual map :
-
-let popUpDualMap = document.getElementById("popUpDualMap");
-
-let buttonDualMap = document.getElementById("btnDualMap");
-
-let buttonClosePopUpDualMap = document.getElementById("closePopUpDualMap");
-
-buttonDualMap.onclick = function () {
-  popUpDualMap.classList.toggle("appear");
-};
-
-buttonClosePopUpDualMap.onclick = function () {
-  popUpDualMap.classList.toggle("appear");
-};
-
-///// popup earthquakes :
-
-let popUpEarthquakes = document.getElementById("popUpEarthquakes");
-
-let buttonEarthquakes = document.getElementById("btnEarthquakes");
-
-let buttonClosePopUpEarthquakes = document.getElementById(
-  "closePopUpEarthquakes"
-);
-
-buttonEarthquakes.onclick = function () {
-  popUpEarthquakes.classList.toggle("appear");
-};
-
-buttonClosePopUpEarthquakes.onclick = function () {
-  popUpEarthquakes.classList.toggle("appear");
-};
-
-///// popup VG :
-
-let popUpVendeeGlobe = document.getElementById("popUpVendeeGlobe");
-
-let buttonVendeeGlobe = document.getElementById("btnVendeeGlobe");
-
-let buttonClosePopUpVendeeGlobe = document.getElementById(
-  "closePopUpVendeeGlobe"
-);
-
-buttonVendeeGlobe.onclick = function () {
-  popUpVendeeGlobe.classList.toggle("appear");
-};
-
-buttonClosePopUpVendeeGlobe.onclick = function () {
-  popUpVendeeGlobe.classList.toggle("appear");
-};
+// fermeture
+buttonClosePopUpAboutMe.addEventListener("click", function () {
+  popUpAboutMe.classList.toggle("appear");
+  premierPlan.classList.toggle("blur");
+  newElement.classList.toggle("blur");
+});
