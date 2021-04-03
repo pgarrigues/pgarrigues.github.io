@@ -41,6 +41,16 @@ mapLocation.addEventListener("click", function () {
   MenuCartes.classList.toggle("appear");
   premierPlan.classList.toggle("blur");
   newElement.classList.toggle("blur");
+
+  // texte animé
+  const textAnimTitre = document.querySelector("#menuTitle");
+
+  new Typewriter(textAnimTitre, {
+    loop: true,
+  })
+    .typeString("Cartes intéractives")
+    .pauseFor(5000)
+    .start();
 });
 
 // fermeture
@@ -57,6 +67,35 @@ buttonAboutMe.addEventListener("click", function () {
   popUpAboutMe.classList.toggle("appear");
   premierPlan.classList.toggle("blur");
   newElement.classList.toggle("blur");
+
+  /// Text animé
+  const txtAnim = document.querySelector("#txtAnim");
+
+  new Typewriter(txtAnim, {
+    deleteSpeed: 40,
+  })
+    .typeString("Bonjour, je m'appelle Pierre-Loup, ")
+    .pauseFor(300)
+    .typeString("je suis géomaticien - développeur SIG...")
+    .pauseFor(500)
+    .deleteChars(40)
+    .typeString("j'aime les cartes.")
+    .pauseFor(500)
+    .deleteChars(11)
+    .typeString("le développement web.")
+    .pauseFor(500)
+    .deleteChars(21)
+    .typeString("<strong>Python</strong>.")
+    .pauseFor(500)
+    .deleteChars(7)
+    .typeString("<strong>JavaScript</strong>.")
+    .pauseFor(500)
+    .deleteChars(11)
+    .typeString("<strong>Vue.js</strong>.")
+    .pauseFor(500)
+    .deleteChars(17)
+    .typeString(" ! Bienvenue à tous !")
+    .start();
 });
 
 // fermeture

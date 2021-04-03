@@ -2,13 +2,12 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Site personnel de Pierre-Loup Garrigues, géomaticien et développeur web, SIG. Présentation et cartes intéractives."
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
     <title>Pierre-Loup GARRIGUES</title>
     <link href="./style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./img/earth.png" />
@@ -25,6 +24,7 @@
       <!-- Fin header -->
 
       <!-- Icone carte -->
+
       <div class="maps">
         <svg
           id="iconMap"
@@ -135,6 +135,9 @@
           <circle cx="823.95073" cy="376.57551" r="8" fill="#ff5252" />
           <circle cx="754.95073" cy="654.57551" r="8" fill="#ff5252" />
         </svg>
+        <div id="titleCartesInteractives">
+          <p> [Cartes intéractives] </Cartes></p>
+        </div>
       </div>
       <!-- Fin icone carte -->
 
@@ -148,7 +151,7 @@
           <span>À propos</span>
           <span id="aboutMe">
             <svg
-              width="66px"
+              width="80px"
               height="43px"
               viewBox="0 0 66 43"
               version="1.1"
@@ -210,7 +213,7 @@
     <!-- Menu navigation cartes -->
     <div id="mapsMenu" class="cartes hidden">
       <div id="titleDiv">
-        <p id="menuTitle">Cartes intéractives</p>
+        <p id="menuTitle"></p>
       </div>
       <div id="closeMenu">
         <button id="btnCloseMenu" class="closureButton">Fermer</button>
@@ -233,8 +236,8 @@
                 </p>
                 <br />
                 <p>
-                  <a class="bold" href="./maps/earthquakes.html" target="_blank"
-                    >Cliquer ici pour accéder à la carte.</a
+                  <a class="liensCartes bold" href="./maps/earthquakes.html" target="_blank"
+                    >---> Lien vers la carte.</a
                   >
                 </p>
                 <br />
@@ -292,8 +295,8 @@
                 <br />
 
                 <p>
-                  <a class="bold" href="./maps/VG.html" target="_blank"
-                    >Cliquer ici pour accéder à la carte.</a
+                  <a class="liensCartes bold" href="./maps/VG.html" target="_blank"
+                    >---> Lien vers la carte.</a
                   >
                 </p>
                 <br />
@@ -352,10 +355,10 @@
                 <br />
                 <p>
                   <a
-                    class="bold"
+                    class="liensCartes bold"
                     href="./maps/carteClustersPotagers.html"
                     target="_blank"
-                    >Cliquer ici pour accéder à la carte.</a
+                    >---> Lien vers la carte.</a
                   >
                 </p>
                 <br />
@@ -408,10 +411,10 @@
                 <br />
                 <p>
                   <a
-                    class="bold"
+                    class="liensCartes bold"
                     href="./maps/cartePotagersMaillesHexa.html"
                     target="_blank"
-                    >Cliquer ici pour accéder à la carte.</a
+                    >---> Lien vers la carte.</a
                   >
                 </p>
                 <br />
@@ -461,10 +464,10 @@
                 <br />
                 <p>
                   <a
-                    class="bold"
+                    class="liensCartes bold"
                     href="./maps/carteDualMapPotagers.html"
                     target="_blank"
-                    >Cliquer ici pour accéder à la carte.</a
+                    >---> Lien vers la carte.</a
                   >
                 </p>
                 <br />
@@ -520,7 +523,7 @@
       <div id="presentation">
         <img id="imgPLG" src="./img/PL.jpg" alt="Pierre-Loup Garrigues" />
         <div id="infosPLG">
-          <p>Pierre-Loup Garrigues</p>
+          <p id="txtAnim"></p>
           <br />
           <p>GÉOMATICIEN | DÉVELOPPEUR SIG</p>
           <p>Téléphone : +33 6 60 36 85 49</p>
@@ -533,7 +536,11 @@
           <p>
             Amateur de développement web & SIG, de cartographie et d'analyse
             spatiale, j'aime apprendre continuellement et mettre à profit mes
-            compétences en géomatique dans des projets qui ont du sens.
+            compétences en géomatique dans des projets qui ont du sens. J’aime 
+            sur mon temps libre, développer mes compétences en JavaScript et Python. 
+            Je suis notamment en train de créer une application web cartographique d’escalade 
+            qui permettra d’aider les pratiquants de la discipline à choisir leur spot 
+            d’escalade en fonction des conditions météorologiques et climatiques.
           </p>
           <br />
           <p>
@@ -568,7 +575,7 @@
     </div>
 
     <!-- Fin PopUp About me -->
-
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="./script.js" type="text/javascript"></script>
   </body>
 </html>
