@@ -48,7 +48,7 @@ mapLocation.addEventListener("click", function () {
   new Typewriter(textAnimTitre, {
     loop: true,
   })
-    .typeString("Cartes intéractives")
+    .typeString("Cartes interactives")
     .pauseFor(5000)
     .start();
 });
