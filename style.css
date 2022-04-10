@@ -1,0 +1,1241 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:900i");
+@import url("https://fonts.googleapis.com/css2?family=Eczar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #6d9c8e;
+  font-family: "Inconsolata", monospace;
+  z-index: 1;
+}
+
+.italique {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.blur {
+  filter: blur(100px);
+}
+
+@media (min-width: 1051px) {
+  h1 {
+    font-family: "Rajdhani", sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6rem;
+    text-shadow: 4px 4px 0 #cee1f2, 7px 7px 0;
+  }
+
+  .line {
+    position: absolute;
+    background: yellow;
+    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #eee1b7);
+    top: 15%;
+    left: -1;
+    transform: translate(-25%, -50%);
+    z-index: 3;
+    width: 0;
+    border-radius: 50px;
+    animation: line 10s linear forwards;
+    height: 18px;
+  }
+
+  @keyframes line {
+    to {
+      width: 132vw;
+    }
+  }
+
+  .letter {
+    z-index: 4;
+  }
+
+  .maps {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+  }
+
+  #titleCartesInteractives {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    bottom: 50px;
+    padding-left: 72px;
+  }
+
+  #titleCartesInteractives p {
+    font-size: 17px;
+  }
+
+  #iconMap {
+    width: 320px;
+    height: auto;
+  }
+
+  #iconMap:hover {
+    width: 325px;
+  }
+
+  #location {
+    fill: #000000;
+  }
+
+  #location:hover {
+    cursor: pointer;
+    animation: flash 1s linear infinite;
+  }
+
+  @keyframes flash {
+    0% {
+      fill: red;
+    }
+    90% {
+      fill: black;
+    }
+    100% {
+      fill: red;
+    }
+  }
+
+  .clignotement {
+    animation: flash 1s linear infinite;
+  }
+
+  @keyframes flash {
+    0% {
+      fill: red;
+    }
+    90% {
+      fill: black;
+    }
+    100% {
+      fill: red;
+    }
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color: white;
+    background: #617afa;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+  }
+
+  .cta:focus {
+    outline: none;
+  }
+
+  .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #a6cbc9;
+  }
+
+  .cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+  }
+
+  .cta:hover span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+  }
+
+  span {
+    transform: skewX(15deg);
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+
+  /**************SVG****************/
+
+  path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+  }
+
+  path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+  }
+
+  .cta:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+  }
+
+  .cta:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+  }
+
+  .cta:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+  }
+
+  /* SVG animations */
+
+  @keyframes color_anim {
+    0% {
+      fill: white;
+    }
+    50% {
+      fill: #f69e3d;
+    }
+    100% {
+      fill: white;
+    }
+  }
+
+  .liensPerso {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .liensPerso img {
+    width: 60px;
+    padding: 15px;
+  }
+
+  #mail-icon {
+    width: 70px;
+    padding: 15px;
+  }
+
+  /* POPUPS */
+
+  .hidden {
+    opacity: 0%;
+    display: flex;
+    z-index: -5;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    transition: ease;
+    transition-duration: 0.3s;
+  }
+
+  .appear {
+    opacity: 100%;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    transition: ease;
+    transition-duration: 2s;
+  }
+
+  /* CARTES*/
+
+  #mapsMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10% 43% 43% 4%;
+  }
+
+  #titleDiv {
+    grid-area: 1 / 1 / 1 / 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #menuTitle {
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+  }
+
+  #closeMenu {
+    grid-area: 1 / 3 / 1 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  #btnCloseMenu {
+    font-family: inherit;
+    margin: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: #df5d5d;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+  }
+
+  #btnCloseMenu:hover {
+    cursor: pointer;
+  }
+
+  #earthquakes,
+  #vendeeGlobe,
+  #clusterPotagers,
+  #maillesHexa,
+  #dualMap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #earthquakes {
+    grid-area: 2 / 1 / 2 / 1;
+  }
+
+  #vendeeGlobe {
+    grid-area: 2 / 2 / 2 / 2;
+  }
+
+  #clusterPotagers {
+    grid-area: 2 / 3 / 2 / 3;
+  }
+
+  #maillesHexa {
+    grid-area: 3 / 1 / 3 / 1;
+  }
+
+  #dualMap {
+    grid-area: 3 / 2 / 3 / 2;
+  }
+
+  #imgEarthquakes,
+  #imgVendeGlobe,
+  #imgClusterPotagers,
+  #imgMaillesHexa,
+  #imgDualMap {
+    height: 90%;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+  }
+
+  #earthquakes a,
+  #vendeeGlobe a,
+  #clusterPotagers a,
+  #maillesHexa a,
+  #dualMap a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  #USGS,
+  .GitHub,
+  #etudePotagers {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 90%;
+    height: 90%;
+    perspective: 1000px;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #2f4155;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flip-card-back {
+    background-color: #2f4155;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-self: flex-end; */
+  }
+
+  section {
+    margin: 20px;
+    overflow-y: scroll;
+  }
+
+  .flip-card-back p {
+    text-align: left;
+    margin: 4px;
+    margin-right: 45px;
+    font-size: 17px;
+  }
+
+  .titleMap {
+    color: #36f51d;
+  }
+
+  /* About me */
+  #aboutMePopUp {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: 30px 1fr 5%;
+  }
+
+  #aboutMeDivTitle {
+    grid-area: 1 / 1 / 4 / 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #2c3e50;
+    color: white;
+  }
+
+  #aboutMeTitle {
+    writing-mode: vertical-rl;
+    /*text-orientation: sideways;*/
+    transform: scale(-1);
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  #closeMenuAboutMe {
+    grid-area: 1 / 2 / 1 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* background: linear-gradient(0.25turn, #df5d5d, #c7d4de); */
+  }
+
+  #btnCloseMenuAboutMe {
+    font-family: inherit;
+    margin: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: #df5d5d;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+  }
+
+  #btnCloseMenuAboutMe:hover {
+    cursor: pointer;
+  }
+
+  #presentation {
+    grid-area: 2 / 2 / 4 / 3;
+    padding: 30px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-left: 50px;
+    padding-right: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 5fr;
+  }
+
+  #imgPLG {
+    grid-area: 1 / 1 / 1 / 1;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 30px;
+  }
+
+  #infosPLG {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  #infosPLG a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #descriptionPLG {
+    grid-area: 2 / 1 / 3 / 3;
+    text-align: justify;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1051px) {
+  h1 {
+    font-family: "Rajdhani", sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-shadow: 3px 3px 0 #cee1f2, 6px 6px 0;
+  }
+  .line {
+    position: absolute;
+    background: yellow;
+    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #eee1b7);
+    top: 15%;
+    left: -1;
+    transform: translate(-25%, -50%);
+    z-index: 3;
+    width: 0;
+    border-radius: 50px;
+    animation: line 10s linear forwards;
+    height: 17px;
+  }
+
+  @keyframes line {
+    to {
+      width: 132vw;
+    }
+  }
+
+  .letter {
+    z-index: 4;
+  }
+
+  .maps {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+  }
+
+  #titleCartesInteractives {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    bottom: 50px;
+    padding-left: 72px;
+  }
+
+  #titleCartesInteractives p {
+    font-size: 17px;
+  }
+
+  #iconMap {
+    width: 320px;
+    height: auto;
+  }
+
+  #iconMap:hover {
+    width: 325px;
+  }
+
+  #location {
+    fill: #000000;
+  }
+
+  #location:hover {
+    cursor: pointer;
+    animation: flash 1s linear infinite;
+  }
+
+  @keyframes flash {
+    0% {
+      fill: red;
+    }
+    90% {
+      fill: black;
+    }
+    100% {
+      fill: red;
+    }
+  }
+
+  .clignotement {
+    animation: flash 1s linear infinite;
+  }
+
+  @keyframes flash {
+    0% {
+      fill: red;
+    }
+    90% {
+      fill: black;
+    }
+    100% {
+      fill: red;
+    }
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color: white;
+    background: #617afa;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+  }
+
+  .cta:focus {
+    outline: none;
+  }
+
+  .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #a6cbc9;
+  }
+
+  .cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+  }
+
+  .cta:hover span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+  }
+
+  span {
+    transform: skewX(15deg);
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+
+  /**************SVG****************/
+
+  path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+  }
+
+  path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+  }
+
+  .cta:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+  }
+
+  .cta:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+  }
+
+  .cta:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+  }
+
+  /* SVG animations */
+
+  @keyframes color_anim {
+    0% {
+      fill: white;
+    }
+    50% {
+      fill: #f69e3d;
+    }
+    100% {
+      fill: white;
+    }
+  }
+
+  .liensPerso {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .liensPerso img {
+    width: 60px;
+    padding: 15px;
+  }
+
+  #mail-icon {
+    width: 65px;
+    padding: 15px;
+  }
+
+  /* POPUPS */
+  .hidden {
+    opacity: 0%;
+    display: flex;
+    z-index: -5;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(45deg, #5d74b6, #e5efe9); */
+    background-color: #ffffff;
+    transition: ease;
+    transition-duration: 0.3s;
+  }
+
+  .appear {
+    opacity: 100%;
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(45deg, #5d74b6, #e5efe9); */
+    background-color: #ffffff;
+    transition: ease;
+    transition-duration: 2s;
+  }
+
+  #mapsMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10% 43% 43% 4%;
+  }
+
+  #titleDiv {
+    grid-area: 1 / 1 / 1 / 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #menuTitle {
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+  }
+
+  #closeMenu {
+    grid-area: 1 / 3 / 1 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  #btnCloseMenu {
+    font-family: inherit;
+    margin: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: #df5d5d;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+  }
+
+  #btnCloseMenu:hover {
+    cursor: pointer;
+  }
+
+  #earthquakes,
+  #vendeeGlobe,
+  #clusterPotagers,
+  #maillesHexa,
+  #dualMap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #earthquakes {
+    grid-area: 2 / 1 / 2 / 1;
+  }
+
+  #vendeeGlobe {
+    grid-area: 2 / 2 / 2 / 2;
+  }
+
+  #clusterPotagers {
+    grid-area: 2 / 3 / 2 / 3;
+  }
+
+  #maillesHexa {
+    grid-area: 3 / 1 / 3 / 1;
+  }
+
+  #dualMap {
+    grid-area: 3 / 2 / 3 / 2;
+  }
+
+  #imgEarthquakes,
+  #imgVendeGlobe,
+  #imgClusterPotagers,
+  #imgMaillesHexa,
+  #imgDualMap {
+    height: 90%;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+  }
+
+  #earthquakes a,
+  #vendeeGlobe a,
+  #clusterPotagers a,
+  #maillesHexa a,
+  #dualMap a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  #USGS,
+  .GitHub,
+  #etudePotagers {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 90%;
+    height: 90%;
+    perspective: 1000px;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #2f4155;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flip-card-back {
+    background-color: #2f4155;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-self: flex-end; */
+  }
+
+  section {
+    margin: 20px;
+    overflow-y: scroll;
+  }
+
+  .flip-card-back p {
+    text-align: left;
+    margin: 4px;
+    margin-right: 45px;
+    font-size: 17px;
+  }
+
+  .titleMap {
+    color: #36f51d;
+  }
+
+  /* About me */
+  #aboutMePopUp {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: 30px 1fr 5%;
+  }
+
+  #aboutMeDivTitle {
+    grid-area: 1 / 1 / 4 / 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #2c3e50;
+    color: white;
+  }
+
+  #aboutMeTitle {
+    writing-mode: vertical-rl;
+    /*text-orientation: sideways;*/
+    transform: scale(-1);
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  #closeMenuAboutMe {
+    grid-area: 1 / 2 / 1 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* background: linear-gradient(0.25turn, #df5d5d, #c7d4de); */
+  }
+
+  #btnCloseMenuAboutMe {
+    font-family: inherit;
+    margin: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: #df5d5d;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+  }
+
+  #btnCloseMenuAboutMe:hover {
+    cursor: pointer;
+  }
+
+  #presentation {
+    grid-area: 2 / 2 / 4 / 3;
+    padding: 30px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-left: 50px;
+    padding-right: 200px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 5fr;
+  }
+
+  #imgPLG {
+    grid-area: 1 / 1 / 1 / 1;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 30px;
+  }
+
+  #infosPLG {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  #infosPLG a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #descriptionPLG {
+    grid-area: 2 / 1 / 3 / 3;
+    text-align: justify;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 874px) {
+  h1 {
+    font-size: 4rem;
+    text-shadow: 3px 3px 0 #cee1f2, 6px 6px 0;
+  }
+  .line {
+    height: 14px;
+  }
+
+  #mapsMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 29% 29% 29% 3%;
+  }
+
+  #closeMenu {
+    grid-area: 1 / 2 / 1 / 2;
+  }
+
+  #earthquakes {
+    grid-area: 2 / 1 / 2 / 1;
+  }
+
+  #vendeeGlobe {
+    grid-area: 2 / 2 / 2 / 2;
+  }
+
+  #clusterPotagers {
+    grid-area: 3 / 1 / 3 / 1;
+  }
+
+  #maillesHexa {
+    grid-area: 3 / 2 / 3 / 2;
+  }
+
+  #dualMap {
+    grid-area: 4 / 1 / 4 / 1;
+  }
+
+  #presentation {
+    grid-area: 2 / 2 / 4 / 3;
+    padding: 30px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-left: 50px;
+    padding-right: 200px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 5fr;
+  }
+
+  #imgPLG {
+    grid-area: 1 / 1 / 1 / 1;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 30px;
+  }
+
+  #infosPLG {
+    grid-area: 2 / 1 / 2 / 1;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  #infosPLG a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #descriptionPLG {
+    grid-area: 3 / 1 / 3 / 1;
+    text-align: justify;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 699px) {
+  h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 0 #cee1f2, 3px 3px 0;
+  }
+  .line {
+    height: 11px;
+  }
+
+  #menuTitle {
+    margin: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+  }
+
+  #mapsMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 7% repeat(5, 18%) 3%;
+  }
+
+  #closeMenu {
+    grid-area: 1 / 2 / 1 / 2;
+  }
+
+  #earthquakes {
+    grid-area: 2 / 1 / 2 / 3;
+  }
+
+  #vendeeGlobe {
+    grid-area: 3 / 1 / 3 / 3;
+  }
+
+  #clusterPotagers {
+    grid-area: 4 / 1 / 4 / 3;
+  }
+
+  #maillesHexa {
+    grid-area: 5 / 1 / 5 / 3;
+  }
+
+  #dualMap {
+    grid-area: 6 / 1 / 6 / 3;
+  }
+
+  .flip-card-back p {
+    text-align: left;
+    margin: 4px;
+    margin-right: 45px;
+    font-size: 17px;
+  }
+
+  #presentation {
+    padding-right: 150px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .cta {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 524px) {
+  h1 {
+    top: 8%;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 0 #cee1f2, 2px 2px 0;
+  }
+  .line {
+    top: 8%;
+    height: 9px;
+  }
+
+  .maps {
+    top: 19%;
+  }
+
+  .wrapper {
+    top: 60%;
+  }
+
+  .cta {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 438px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .line {
+    height: 7px;
+  }
+
+  .cta {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}

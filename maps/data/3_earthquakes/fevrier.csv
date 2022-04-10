@@ -1,0 +1,517 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2020-02-29T18:16:25.317Z,16.4145,-61.7586,103.02,4.5,mb,,52,0.125,0.89,us,us60008add,2020-05-19T22:14:30.040Z,"11km NW of Sainte-Rose, Guadeloupe",earthquake,5.5,4.4,0.065,73,reviewed,us,us
+2020-02-29T17:14:29.377Z,-17.0727,-174.5241,90.63,4.5,mb,,111,4.108,0.68,us,us60008adh,2020-05-19T22:14:30.040Z,"149km SSW of Hihifo, Tonga",earthquake,8.6,11,0.15,15,reviewed,us,us
+2020-02-29T16:17:05.575Z,-15.1553,-173.4624,10,4.6,mb,,105,5.16,1.35,us,us60008ada,2020-05-19T22:14:30.040Z,"93km NNE of Hihifo, Tonga",earthquake,8.4,1.9,0.157,12,reviewed,us,us
+2020-02-29T13:46:42.809Z,-5.5432,151.2228,76.72,4.8,mb,,49,1.637,0.91,us,us600086xp,2020-05-19T22:14:12.040Z,"119km E of Kimbe, Papua New Guinea",earthquake,3.2,7.6,0.08,55,reviewed,us,us
+2020-02-29T13:34:50.633Z,-20.6365,-114.0129,10,4.6,mb,,92,39.838,0.72,us,us60008ad5,2020-05-19T22:14:30.040Z,"Southern East Pacific Rise",earthquake,14.8,1.7,0.119,21,reviewed,us,us
+2020-02-29T12:29:48.614Z,38.3449,39.2773,10,4.5,mb,,105,1.572,0.33,us,us600086w9,2020-05-19T22:14:12.040Z,"11km SSW of Sivrice, Turkey",earthquake,2.4,1.9,0.09,36,reviewed,us,us
+2020-02-29T11:54:22.763Z,14.8409,-93.7741,35,4.6,mb,,103,1.012,0.69,us,us600086vt,2020-05-19T22:14:12.040Z,"111km SSW of Pijijiapan, Mexico",earthquake,6.6,2,0.033,268,reviewed,us,us
+2020-02-29T09:28:25.915Z,3.14,128.1906,136.91,5.3,mww,,37,2.492,0.88,us,us600086um,2020-05-19T22:14:12.040Z,"157km N of Tobelo, Indonesia",earthquake,7.7,4.6,0.059,28,reviewed,us,us
+2020-02-29T08:54:39.447Z,11.7633,139.8281,10,4.5,mb,,99,5.242,0.58,us,us60008acv,2020-05-19T22:14:29.040Z,"233km NNW of Fais, Micronesia",earthquake,11.3,1.1,0.096,33,reviewed,us,us
+2020-02-29T08:06:10.519Z,5.8438,-77.6307,10,4.7,mb,,106,3.441,0.81,us,us600086tp,2020-05-19T22:14:11.040Z,"42km WNW of Nuqui, Colombia",earthquake,7.2,1.9,0.081,46,reviewed,us,us
+2020-02-29T06:43:42.701Z,-22.0624,169.0609,10,4.9,mww,,59,1.119,1.08,us,us600086su,2020-05-19T22:14:11.040Z,"134km ESE of Tadine, New Caledonia",earthquake,8.8,1.9,0.073,18,reviewed,us,us
+2020-02-29T04:18:43.413Z,0.3372,126.1868,10,4.5,mb,,89,1.256,0.33,us,us60008acw,2020-05-19T22:14:29.040Z,"140km WSW of Kota Ternate, Indonesia",earthquake,7.3,1.9,0.14,15,reviewed,us,us
+2020-02-29T03:05:27.679Z,35.2199,-14.5698,10,4.8,mb,,63,5.022,0.81,us,us600086pq,2020-05-19T22:14:11.040Z,"287km NE of Camacha, Portugal",earthquake,9.5,1.8,0.045,153,reviewed,us,us
+2020-02-29T02:25:21.428Z,10.5945,-62.4825,94.11,4.6,mb,,66,1.73,1.04,us,us600086p9,2020-05-19T22:14:11.040Z,"11km ENE of Irapa, Venezuela",earthquake,6.8,6.9,0.062,77,reviewed,us,us
+2020-02-29T02:13:11.222Z,-31.4824,-68.7771,104.04,4.5,mb,,58,0.101,1.21,us,us600086p5,2020-05-19T22:14:11.040Z,"8km NNW of Zonda, Argentina",earthquake,8,5.9,0.099,30,reviewed,us,us
+2020-02-29T01:57:09.831Z,-19.4385,-172.9909,10,5.1,mww,,80,2.916,1.35,us,us600086p0,2020-05-19T22:14:11.040Z,"136km SE of Neiafu, Tonga",earthquake,11.5,1.9,0.093,11,reviewed,us,us
+2020-02-29T01:11:30.219Z,-21.9591,-68.485,101.57,4.5,mb,,33,0.721,0.74,us,us600086n3,2020-05-19T22:14:10.040Z,"72km NE of Calama, Chile",earthquake,5,5.9,0.118,21,reviewed,us,us
+2020-02-29T00:34:17.265Z,-24.1447,-177.0872,115.18,4.7,mb,,50,5.135,1.35,us,us600086mr,2020-05-19T22:14:10.040Z,"South of the Fiji Islands",earthquake,9.4,5.1,0.103,29,reviewed,us,us
+2020-02-28T23:09:09.612Z,55.7593,130.1317,10,4.5,mb,,45,6.295,0.64,us,us600086lg,2020-05-19T22:14:10.040Z,"289km NE of Zeya, Russia",earthquake,7.3,1.9,0.045,147,reviewed,us,us
+2020-02-28T21:36:25.985Z,41.7724,81.0795,10,4.9,mb,,60,1.511,0.73,us,us600086h7,2020-05-19T22:14:09.040Z,"99km NE of Aksu, China",earthquake,6.7,1.8,0.039,212,reviewed,us,us
+2020-02-28T18:47:58.682Z,-55.3469,-29.3883,10,5.3,mww,,44,4.243,0.67,us,us600086as,2020-05-19T22:14:08.040Z,"203km NW of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,9.1,1.8,0.089,12,reviewed,us,us
+2020-02-28T14:02:55.010Z,-3.9512,103.1177,93.99,5.1,mww,,28,0.437,0.77,us,us6000863e,2020-05-19T22:14:07.040Z,"18km WNW of Pagaralam, Indonesia",earthquake,8.5,4.2,0.078,16,reviewed,us,us
+2020-02-28T13:34:48.915Z,26.9113,143.6198,10,4.5,mb,,145,1.293,0.58,us,us60008636,2020-05-19T22:14:07.040Z,"140km E of Chichi-shima, Japan",earthquake,9.2,1.9,0.097,31,reviewed,us,us
+2020-02-28T10:54:06.675Z,2.02,126.7602,53.62,4.6,mb,,88,1.38,0.9,us,us6000860z,2020-05-19T22:14:06.040Z,"137km WNW of Tobelo, Indonesia",earthquake,3.4,6,0.067,66,reviewed,us,us
+2020-02-28T10:19:51.830Z,26.8769,143.6265,10,4.5,mb,,41,1.305,0.79,us,us6000860e,2020-05-19T22:14:06.040Z,"141km E of Chichi-shima, Japan",earthquake,8.9,1.8,0.06,81,reviewed,us,us
+2020-02-28T10:15:33.309Z,-54.9745,-131.424,10,4.7,mb,,92,31.107,0.6,us,us60008a5f,2020-05-19T22:14:29.040Z,"Pacific-Antarctic Ridge",earthquake,10.1,1.9,0.166,14,reviewed,us,us
+2020-02-28T09:59:10.856Z,26.8596,143.5593,10,4.5,mb,,124,1.249,0.81,us,us60008a5g,2020-05-19T22:14:29.040Z,"135km E of Chichi-shima, Japan",earthquake,10,1.9,0.1,29,reviewed,us,us
+2020-02-28T09:38:06.389Z,10.2377,125.0047,10,4.5,mb,,96,3.198,0.93,us,us60008a5b,2020-05-19T22:14:29.040Z,"2km ESE of Tomas Oppus, Philippines",earthquake,11.1,1.9,0.106,26,reviewed,us,us
+2020-02-28T07:41:50.508Z,-18.9008,-172.9039,10,5.7,mww,,47,2.822,0.96,us,us600085x5,2020-05-19T22:14:05.040Z,"117km ESE of Neiafu, Tonga",earthquake,9.6,1.9,0.069,20,reviewed,us,us
+2020-02-28T05:50:18.394Z,35.2945,71.8197,58.81,4.5,mb,,84,2.03,0.92,us,us600085v8,2020-05-19T22:14:05.040Z,"11km NNW of Dir, Pakistan",earthquake,6.2,6.4,0.088,38,reviewed,us,us
+2020-02-28T05:10:07.545Z,26.8062,130.0648,10,4.7,mb,,98,1.43,0.6,us,us600085v5,2020-05-19T22:14:05.040Z,"182km SSE of Naze, Japan",earthquake,3.5,1.8,0.086,41,reviewed,us,us
+2020-02-28T00:37:32.195Z,-6.92,126.8752,445.18,4.5,mb,,73,3.82,1.13,us,us60008a55,2020-05-19T22:14:29.040Z,"231km NE of Dili, East Timor",earthquake,7.5,12.4,0.171,10,reviewed,us,us
+2020-02-27T23:56:20.536Z,28.2322,103.6297,10,4.6,mb,,71,5.513,0.75,us,us600085pz,2020-05-19T22:14:03.040Z,"5km NE of Xiluodu, China",earthquake,8.5,1.9,0.057,91,reviewed,us,us
+2020-02-27T22:20:36.921Z,-54.4859,-118.9469,10,5.4,mww,,40,27.646,0.94,us,us600085my,2020-05-19T22:14:03.040Z,"Southern East Pacific Rise",earthquake,12.6,1.7,0.078,16,reviewed,us,us
+2020-02-27T21:41:30.728Z,-36.4526,-100.3147,10,4.7,mb,,196,12.075,0.86,us,us600089kh,2020-05-19T22:14:29.040Z,"Southeast of Easter Island",earthquake,15.8,2,0.08,47,reviewed,us,us
+2020-02-27T21:28:07.612Z,-10.4912,116.4622,10,4.9,mb,,99,3.037,0.72,us,us600089kg,2020-05-19T22:14:29.040Z,"178km S of Kute, Indonesia",earthquake,7.1,1.8,0.069,65,reviewed,us,us
+2020-02-27T19:20:59.579Z,1.8642,126.447,61.95,5,mb,,54,1.422,0.91,us,us600085gn,2020-05-19T22:14:02.040Z,"148km ENE of Bitung, Indonesia",earthquake,6.6,4.6,0.047,144,reviewed,us,us
+2020-02-27T19:13:02.974Z,3.7953,125.7576,122,5.5,mww,,32,3.257,1.32,us,us600085g3,2020-05-19T22:14:02.040Z,"180km S of Sarangani, Philippines",earthquake,7.4,1.8,0.058,29,reviewed,us,us
+2020-02-27T17:32:05.912Z,-29.2543,-176.1317,10,4.9,mb,,99,1.57,1.08,us,us600089k8,2020-05-19T22:14:28.040Z,"171km E of Raoul Island, New Zealand",earthquake,12.3,1.9,0.15,15,reviewed,us,us
+2020-02-27T15:18:18.668Z,-13.794,-14.6731,10,5.3,mww,,35,5.833,0.83,us,us6000859r,2020-05-19T22:14:02.040Z,"Southern Mid-Atlantic Ridge",earthquake,10.4,1.8,0.068,21,reviewed,us,us
+2020-02-27T15:10:27.635Z,-13.0278,-15.1094,10,4.7,mb,,116,21.711,0.77,us,us600089k5,2020-05-19T22:14:28.040Z,"Southern Mid-Atlantic Ridge",earthquake,10,1.9,0.123,21,reviewed,us,us
+2020-02-27T14:36:14.358Z,35.3453,27.9438,10,4.8,mb,,41,0.67,0.77,us,us60008594,2020-05-19T22:14:02.040Z,"68km ESE of Karpathos, Greece",earthquake,2.9,1.8,0.044,163,reviewed,us,us
+2020-02-27T13:28:47.918Z,-8.6486,118.2662,142.55,4.6,mb,,87,3.9,1.23,us,us6000858g,2020-05-19T22:14:01.040Z,"10km SSW of Npongge, Indonesia",earthquake,4.5,8.5,0.109,25,reviewed,us,us
+2020-02-27T13:00:39.080Z,-20.3885,67.667,10,4.7,mb,,143,4.087,1.08,us,us600089k2,2020-05-19T22:14:28.040Z,"Mid-Indian Ridge",earthquake,14,1.9,0.224,6,reviewed,us,us
+2020-02-27T12:43:57.614Z,-25.255,179.9252,478.56,4.7,mb,,49,4.409,1.14,us,us60008582,2020-05-19T22:14:01.040Z,"South of the Fiji Islands",earthquake,10.1,6.1,0.041,184,reviewed,us,us
+2020-02-27T12:20:19.197Z,35.2908,27.9291,10,4.5,mb,,51,0.677,1.09,us,us6000857v,2020-05-19T22:14:01.040Z,"69km ESE of Karpathos, Greece",earthquake,5,1.5,0.072,57,reviewed,us,us
+2020-02-27T10:17:36.821Z,39.9214,51.3825,41.84,4.6,mb,,94,5.103,0.67,us,us6000856p,2020-05-19T22:14:00.040Z,"105km ESE of Zyrya, Azerbaijan",earthquake,5.6,5.5,0.061,82,reviewed,us,us
+2020-02-27T09:14:04.928Z,-23.9859,-179.6553,507.71,4.5,mb,,127,6.568,0.86,us,us600089k0,2020-05-19T22:14:28.040Z,"South of the Fiji Islands",earthquake,14.7,9.4,0.106,26,reviewed,us,us
+2020-02-27T04:27:26.134Z,-12.379,-14.6662,10,4.5,mb,,68,4.428,0.51,us,us600089jr,2020-05-19T22:14:28.040Z,"Southern Mid-Atlantic Ridge",earthquake,12.7,1.9,0.156,12,reviewed,us,us
+2020-02-27T04:26:12.327Z,-30.1988,-177.6869,35,4.9,mb,,106,0.973,0.83,us,us600089js,2020-05-19T22:14:28.040Z,"105km S of Raoul Island, New Zealand",earthquake,10.9,2,0.136,17,reviewed,us,us
+2020-02-27T04:13:34.846Z,-45.1466,95.4789,10,5,mb,,66,20.772,0.61,us,us600089jq,2020-05-19T22:14:28.040Z,"Southeast Indian Ridge",earthquake,14.2,1.8,0.137,17,reviewed,us,us
+2020-02-27T04:11:10.694Z,-12.283,-14.7983,10,5.1,mww,,47,3.306,0.73,us,us60008535,2020-05-19T22:13:59.040Z,"Southern Mid-Atlantic Ridge",earthquake,9.8,1.8,0.078,16,reviewed,us,us
+2020-02-27T03:52:12.141Z,-23.9832,-66.9384,209.08,4.5,mb,,72,1.533,0.93,us,us6000852t,2020-05-19T22:13:59.040Z,"68km WNW of San Antonio de los Cobres, Argentina",earthquake,8,8.2,0.204,7,reviewed,us,us
+2020-02-27T02:46:39.264Z,-55.7053,-28.2441,52.66,4.6,mb,,69,4.956,0.55,us,us600089kk,2020-05-19T22:14:29.040Z,"128km NNW of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,13,9,0.119,21,reviewed,us,us
+2020-02-27T02:36:19.451Z,0.5518,121.8316,91.02,4.7,mb,,100,1.187,0.64,us,us6000852b,2020-05-19T22:13:59.040Z,"28km E of Lemito, Indonesia",earthquake,7.8,5.9,0.085,42,reviewed,us,us
+2020-02-27T02:34:18.377Z,-7.3746,128.8225,126.84,4.5,mb,,124,5.088,0.9,us,us600089jn,2020-05-19T22:14:28.040Z,"282km WNW of Saumlaki, Indonesia",earthquake,13.8,10.7,0.243,5,reviewed,us,us
+2020-02-27T02:23:02.907Z,-30.086,-177.7789,40.15,4.5,mb,,125,0.848,0.61,us,us600089jm,2020-05-19T22:14:28.040Z,"91km S of Raoul Island, New Zealand",earthquake,11.8,6.5,0.171,16,reviewed,us,us
+2020-02-27T02:08:46.182Z,38.2294,38.685,10,4.6,mb,,76,0.904,0.95,us,us60008522,2020-05-19T22:13:59.040Z,"21km SSW of Kale, Turkey",earthquake,4.5,1.9,0.086,40,reviewed,us,us
+2020-02-27T02:04:19.225Z,-20.2006,-173.8237,10,4.9,mb,,160,6.554,0.92,us,us600089jl,2020-05-19T22:14:27.040Z,"70km SE of Pangai, Tonga",earthquake,9.1,1.9,0.178,11,reviewed,us,us
+2020-02-27T01:37:00.810Z,-29.529,-71.1547,75.13,4.8,mwr,,58,0.395,0.75,us,us6000851q,2020-05-19T22:13:59.040Z,"43km NNE of La Serena, Chile",earthquake,2.7,3.8,0.042,55,reviewed,us,us
+2020-02-27T01:25:29.002Z,-23.6835,-64.6288,31.06,4.9,mww,,31,3.343,0.66,us,us600089ji,2020-05-19T22:14:27.040Z,"7km NNW of Caimancito, Argentina",earthquake,5.3,4.9,0.089,12,reviewed,us,us
+2020-02-27T01:03:20.696Z,6.8678,124.9651,10.57,4.6,mb,,76,0.641,0.58,us,us60008511,2020-05-19T22:13:59.040Z,"6km E of Bagontapay, Philippines",earthquake,6.7,5.5,0.098,31,reviewed,us,us
+2020-02-26T22:31:31.620Z,-21.9302,68.727,10,4.6,mb,,87,5.457,0.45,us,us600089ie,2020-05-19T22:14:27.040Z,"Mid-Indian Ridge",earthquake,14.5,1.9,0.136,16,reviewed,us,us
+2020-02-26T21:21:22.854Z,-58.7647,-25.1952,21.21,4.7,mb,,52,15.82,0.75,us,us600089i8,2020-05-19T22:14:27.040Z,"81km ENE of Bristol Island, South Sandwich Islands",earthquake,9.8,4.4,0.097,32,reviewed,us,us
+2020-02-26T20:21:32.681Z,-30.9949,-71.4659,48.08,4.8,mwr,,80,0.351,1.05,us,us600084u3,2020-05-19T22:13:59.040Z,"50km SSW of Ovalle, Chile",earthquake,5.4,4,0.044,49,reviewed,us,us
+2020-02-26T19:46:15.642Z,77.4679,7.2774,10,4.6,mb,,77,2.055,0.74,us,us600084te,2020-05-19T22:13:59.040Z,"213km WSW of Longyearbyen, Svalbard and Jan Mayen",earthquake,8.1,1.8,0.046,141,reviewed,us,us
+2020-02-26T17:14:43.506Z,2.6379,-79.6043,10,4.5,mb,,149,2.648,1.29,us,us600084nf,2020-05-19T22:13:58.040Z,"114km WNW of Francisco Pizarro, Colombia",earthquake,9.6,1.8,0.066,67,reviewed,us,us
+2020-02-26T16:43:09.174Z,10.8894,-86.5617,10,4.6,mb,,119,1.236,1.13,us,us600084mv,2020-05-19T22:13:58.040Z,"85km WSW of San Juan del Sur, Nicaragua",earthquake,7.2,1.8,0.07,60,reviewed,us,us
+2020-02-26T15:04:08.953Z,32.9752,76.2474,10,5,mb,,37,2.583,0.85,us,us600084lt,2020-05-19T22:13:57.040Z,"46km NNE of Chamba, India",earthquake,4.7,1.7,0.041,189,reviewed,us,us
+2020-02-26T14:20:11.092Z,35.2647,27.7945,10,4.6,mb,,47,0.589,0.72,us,us600084lh,2020-05-19T22:13:57.040Z,"59km ESE of Karpathos, Greece",earthquake,5.3,1.9,0.088,39,reviewed,us,us
+2020-02-26T13:28:16.140Z,-5.7746,153.4396,10,4.8,mb,,98,2.022,0.61,us,us600084la,2020-05-19T22:13:57.040Z,"151km SSE of Taron, Papua New Guinea",earthquake,8.5,1.9,0.092,37,reviewed,us,us
+2020-02-26T10:44:17.709Z,-20.5202,-178.6258,596.37,4.6,mb,,91,4.18,0.83,us,us600084ja,2020-05-19T22:13:57.040Z,"16km NNE of Ndoi Island, Fiji",earthquake,11.6,7.3,0.029,352,reviewed,us,us
+2020-02-26T07:51:22.389Z,41.3255,50.8974,67.82,4.6,mb,,45,4.822,0.8,us,us600084h7,2020-05-19T22:13:57.040Z,"106km NNE of Artyom, Azerbaijan",earthquake,9,6.3,0.066,68,reviewed,us,us
+2020-02-26T07:33:12.952Z,-7.4887,131.1196,54,6,mww,,21,0.521,1.05,us,us600084gu,2020-05-19T22:13:57.040Z,"55km NNW of Saumlaki, Indonesia",earthquake,6.3,1.8,0.057,30,reviewed,us,us
+2020-02-26T06:17:42.197Z,-35.7313,-179.402,10,4.8,mb,,155,2.595,1.33,us,us600084g0,2020-05-19T22:13:56.040Z,"East of the North Island of New Zealand",earthquake,9.4,1.9,0.143,15,reviewed,us,us
+2020-02-26T05:39:46.658Z,15.8164,119.1721,10,4.5,mb,,139,2.411,0.61,us,us600089hr,2020-05-19T22:14:25.040Z,"65km WSW of Ilioilio, Philippines",earthquake,15.3,1.9,0.121,20,reviewed,us,us
+2020-02-26T05:34:13.071Z,23.7975,121.678,10,4.8,mb,,87,0.382,1.03,us,us600084fu,2020-05-19T22:13:56.040Z,"21km SSE of Hualian, Taiwan",earthquake,2.7,1.8,0.07,63,reviewed,us,us
+2020-02-26T05:28:32.056Z,-18.9519,169.4811,243.42,4.5,mb,,118,2.861,1.01,us,us600089hq,2020-05-19T22:14:25.040Z,"69km NNE of Isangel, Vanuatu",earthquake,11.9,10.1,0.115,22,reviewed,us,us
+2020-02-26T05:13:41.427Z,5.527,126.5032,75.41,4.5,mb,,137,1.786,0.59,us,us600089hp,2020-05-19T22:14:25.040Z,"99km SSE of Pondaguitan, Philippines",earthquake,11.3,8.9,0.18,9,reviewed,us,us
+2020-02-26T03:39:02.811Z,-60.8795,-26.3659,10,4.8,mb,,126,14.237,0.59,us,us600089ih,2020-05-19T22:14:27.040Z,"205km S of Bristol Island, South Sandwich Islands",earthquake,15.5,1.9,0.109,26,reviewed,us,us
+2020-02-26T02:10:22.359Z,-4.47,152.7642,84.37,4.5,mb,,174,0.659,0.78,us,us600089ht,2020-05-19T22:14:25.040Z,"29km W of Taron, Papua New Guinea",earthquake,11.8,6.4,0.171,10,reviewed,us,us
+2020-02-26T00:23:32.809Z,15.8708,119.2231,10,5,mb,,100,2.415,0.75,us,us600084cv,2020-05-19T22:13:55.040Z,"58km W of Ilioilio, Philippines",earthquake,3,1.8,0.042,183,reviewed,us,us
+2020-02-25T23:03:37.816Z,38.3489,38.7972,10,5,mww,,59,0.826,0.82,us,us600084bs,2020-05-09T21:40:46.040Z,"7km SSE of Kale, Turkey",earthquake,4.3,1.8,0.093,11,reviewed,us,us
+2020-02-25T21:17:33.513Z,-10.024,161.026,10,4.8,mww,,76,1.211,0.69,us,us6000848g,2020-05-09T21:40:45.040Z,"108km WNW of Kirakira, Solomon Islands",earthquake,8.2,1.8,0.098,10,reviewed,us,us
+2020-02-25T20:50:50.750Z,5.2249,125.4432,71.5,4.5,mb,,109,1.837,0.89,us,us6000847i,2020-05-09T21:40:45.040Z,"19km S of Sarangani, Philippines",earthquake,7.4,8.5,0.078,54,reviewed,us,us
+2020-02-25T16:54:31.462Z,-41.2419,-86.1025,10,4.5,mb,,247,9.534,0.37,us,us70007whj,2020-05-09T21:41:18.040Z,"West Chile Rise",earthquake,15.2,2,0.132,17,reviewed,us,us
+2020-02-25T15:00:07.251Z,25.4672,143.7073,10,4.5,mb,,93,2.121,0.48,us,us600089b5,2020-05-09T21:40:53.040Z,"232km SE of Chichi-shima, Japan",earthquake,10.4,1.9,0.11,25,reviewed,us,us
+2020-02-25T14:14:05.050Z,38.4132,44.344,10,4.5,mb,,72,1.015,0.62,us,us70007wg2,2020-05-09T21:41:17.040Z,"29km SSE of Saray, Turkey",earthquake,4.2,1.9,0.083,42,reviewed,us,us
+2020-02-25T11:14:03.929Z,24.3743,121.4522,10,5,mww,,36,0.238,0.9,us,us70007we1,2020-05-09T21:41:17.040Z,"46km NNW of Hualian, Taiwan",earthquake,3.6,1.8,0.075,17,reviewed,us,us
+2020-02-25T09:25:48.210Z,0.6612,126.1625,35,4.5,mb,,107,1.209,0.44,us,us600089aw,2020-05-09T21:40:53.040Z,"134km W of Kota Ternate, Indonesia",earthquake,5.3,1.9,0.156,12,reviewed,us,us
+2020-02-25T06:42:21.927Z,-22.2824,-174.7319,10,4.7,mb,,163,5.514,1.16,us,us600089as,2020-05-09T21:40:53.040Z,"107km SSE of `Ohonua, Tonga",earthquake,8.2,1.9,0.142,15,reviewed,us,us
+2020-02-25T06:39:47.533Z,39.4197,143.2941,28.19,4.7,mb,,135,4.724,0.91,us,us70007wbp,2020-05-09T21:41:17.040Z,"115km E of Yamada, Japan",earthquake,4.5,5.4,0.064,75,reviewed,us,us
+2020-02-25T04:15:02.162Z,-8.0852,-80.0159,28.22,5.3,mww,,94,1.864,1.07,us,us70007w9l,2020-05-09T21:41:17.040Z,"86km W of Santiago de Cao, Peru",earthquake,5.2,4,0.054,33,reviewed,us,us
+2020-02-25T03:58:59.314Z,-16.1515,-172.8321,10,4.8,mb,,67,2.449,0.92,us,us600089ap,2020-05-09T21:40:53.040Z,"100km ESE of Hihifo, Tonga",earthquake,7.6,1.8,0.105,28,reviewed,us,us
+2020-02-25T03:34:47.198Z,25.0095,127.0806,10,4.5,mb,,89,2.111,0.77,us,us70007w9w,2020-05-09T21:41:17.040Z,"136km SSW of Itoman, Japan",earthquake,7.3,1.9,0.157,12,reviewed,us,us
+2020-02-25T03:04:42.882Z,-16.073,-172.5538,10,4.8,mb,,85,2.277,0.61,us,us70007w8u,2020-05-09T21:41:17.040Z,"128km E of Hihifo, Tonga",earthquake,8,1.8,0.09,38,reviewed,us,us
+2020-02-25T02:15:35.841Z,14.0612,145.5006,114.24,4.8,mb,,124,0.772,0.45,us,us70007w8k,2020-05-09T21:41:16.040Z,"33km ESE of Rota, Northern Mariana Islands",earthquake,15.4,10.1,0.042,173,reviewed,us,us
+2020-02-25T02:07:27.241Z,-17.6941,-178.8477,522.4,4.9,mb,,47,2.954,0.89,us,us70007w8g,2020-05-09T21:41:16.040Z,"235km SE of Lambasa, Fiji",earthquake,10.6,5.8,0.024,535,reviewed,us,us
+2020-02-25T00:49:41.426Z,-23.0505,-69.4021,75.93,4.6,mwr,,59,0.377,0.97,us,us70007w7n,2020-05-09T21:41:16.040Z,"80km SW of Calama, Chile",earthquake,6.2,4.1,0.053,34,reviewed,us,us
+2020-02-25T00:13:31.842Z,13.577,-91.5529,35,4.7,mwr,,136,0.952,0.86,us,us70007w6u,2020-05-09T21:41:16.040Z,"74km SSW of Nueva Concepcion, Guatemala",earthquake,7,2,0.075,17,reviewed,us,us
+2020-02-24T20:59:24.826Z,-1.9759,99.8891,35,4.8,mww,,52,2.559,0.59,us,us70007w28,2020-05-09T21:41:16.040Z,"86km ESE of Muara Siberut, Indonesia",earthquake,7.2,1.9,0.098,10,reviewed,us,us
+2020-02-24T16:33:00.138Z,-60.4531,-26.6161,10,4.9,mb,,121,14.527,0.59,us,us70007vzi,2020-05-09T21:41:16.040Z,"158km S of Bristol Island, South Sandwich Islands",earthquake,15.7,1.9,0.095,35,reviewed,us,us
+2020-02-24T16:19:45.914Z,-20.1564,-175.5746,192.77,4.7,mb,,101,5.43,1.25,us,us6000867y,2020-05-09T21:40:51.040Z,"114km NNW of Nuku`alofa, Tonga",earthquake,12.7,9,0.153,14,reviewed,us,us
+2020-02-24T16:03:00.082Z,39.3625,16.1751,10,4.8,mb,,54,0.488,0.66,us,us70007vtm,2020-05-09T21:41:16.040Z,"2km E of San Vincenzo la Costa, Italy",earthquake,3.4,1.2,0.069,72,reviewed,us,us
+2020-02-24T13:12:06.894Z,27.1309,140.202,470.91,4.6,mb,,78,1.767,0.6,us,us70007vrd,2020-05-09T21:41:16.040Z,"199km W of Chichi-shima, Japan",earthquake,10.5,5.7,0.041,181,reviewed,us,us
+2020-02-24T11:46:58.363Z,-14.6983,167.574,142.53,4.5,mb,,67,0.826,1.27,us,us6000867q,2020-05-09T21:40:51.040Z,"68km NE of Port-Olry, Vanuatu",earthquake,9,5,0.088,38,reviewed,us,us
+2020-02-24T10:14:22.466Z,-44.7439,167.361,10,4.9,mb,,80,0.735,1.24,us,us70007vpe,2020-05-09T21:41:15.040Z,"79km NNW of Te Anau, New Zealand",earthquake,4.8,1.8,0.129,19,reviewed,us,us
+2020-02-24T09:00:23.275Z,13.9681,-92.6902,10,4.9,mww,,145,1.02,1.16,us,us70007vnd,2020-05-09T21:41:15.040Z,"80km SW of Ocos, Guatemala",earthquake,5,1.8,0.069,20,reviewed,us,us
+2020-02-24T07:48:33.372Z,-11.08,166.3947,140.49,4.5,mb,,145,4.411,0.58,us,us6000867l,2020-05-09T21:40:51.040Z,"73km ESE of Lata, Solomon Islands",earthquake,7.6,9.7,0.156,12,reviewed,us,us
+2020-02-24T02:43:34.990Z,39.0595,27.916,10.88,4.6,mb,,64,0.58,0.83,us,us70007vj1,2020-05-09T21:41:15.040Z,"16km NNE of Akhisar, Turkey",earthquake,5.5,3.9,0.079,49,reviewed,us,us
+2020-02-24T02:02:51.831Z,-13.8237,166.6434,20.3,4.7,mb,,116,1.702,0.96,us,us6000867g,2020-05-09T21:40:51.040Z,"98km W of Sola, Vanuatu",earthquake,13.4,4.8,0.115,23,reviewed,us,us
+2020-02-24T00:33:48.004Z,31.2025,56.6379,10,4.6,mb,,84,5.688,0.76,us,us70007vgv,2020-05-09T21:41:15.040Z,"17km WSW of Ravar, Iran",earthquake,8.1,1.9,0.063,74,reviewed,us,us
+2020-02-23T23:58:27.056Z,-55.7492,-26.5241,10,4.5,mb,,196,5.917,1.01,us,us600085yu,2020-05-09T21:40:50.040Z,"113km NNE of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,15,2,0.113,23,reviewed,us,us
+2020-02-23T22:47:29.239Z,-3.0685,130.2336,10,4.6,mb,,60,2.416,0.95,us,us70007vfs,2020-05-09T21:41:15.040Z,"149km ENE of Amahai, Indonesia",earthquake,3.9,1.9,0.086,40,reviewed,us,us
+2020-02-23T22:47:29.174Z,-23.9592,-67.1351,238.45,4.6,mb,,50,1.387,0.57,us,us70007vfk,2020-05-09T21:41:15.040Z,"87km WNW of San Antonio de los Cobres, Argentina",earthquake,10.5,10.6,0.244,5,reviewed,us,us
+2020-02-23T22:35:33.947Z,-11.2204,163.2609,10,4.6,mb,,145,3.71,0.74,us,us600085ys,2020-05-09T21:40:50.040Z,"169km ESE of Kirakira, Solomon Islands",earthquake,9.2,1.9,0.158,12,reviewed,us,us
+2020-02-23T21:58:42.028Z,5.3096,126.5474,35,4.6,mb,,154,1.996,0.89,us,us600085yq,2020-05-09T21:40:50.040Z,"120km SE of Caburan, Philippines",earthquake,6,2,0.146,14,reviewed,us,us
+2020-02-23T16:15:03.088Z,-30.1595,-177.7367,46.81,4.9,mb,,207,0.926,0.9,us,us600085yf,2020-05-09T21:40:50.040Z,"100km S of Raoul Island, New Zealand",earthquake,12.8,7.1,0.162,16,reviewed,us,us
+2020-02-23T16:00:31.626Z,38.4958,44.3732,10,6,mww,,18,1.049,0.92,us,us70007v9g,2020-05-09T21:41:14.040Z,"24km SE of Saray, Turkey",earthquake,3.5,1.8,0.05,38,reviewed,us,us
+2020-02-23T13:53:34.904Z,26.9589,143.7164,10,4.7,mb,,123,1.373,0.74,us,us70007v7n,2020-05-09T21:41:14.040Z,"149km E of Chichi-shima, Japan",earthquake,4.6,1.9,0.089,38,reviewed,us,us
+2020-02-23T13:25:40.621Z,28.5128,142.785,10,5.1,mww,,122,1.508,0.57,us,us70007v7e,2020-05-09T21:41:14.040Z,"168km NNE of Chichi-shima, Japan",earthquake,8.1,1.8,0.071,19,reviewed,us,us
+2020-02-23T12:57:08.416Z,45.7216,148.381,168.39,4.9,mww,,101,4.084,0.62,us,us70007v6u,2020-05-09T21:41:14.040Z,"66km NE of Kuril'sk, Russia",earthquake,9.3,7,0.089,12,reviewed,us,us
+2020-02-23T12:10:28.939Z,-14.0706,167.7778,6.57,4.6,mb,,99,8.058,0.92,us,us600085y8,2020-05-09T21:40:49.040Z,"32km SE of Sola, Vanuatu",earthquake,4.7,6.8,0.136,16,reviewed,us,us
+2020-02-23T10:55:44.810Z,-4.506,151.2028,284.17,4.5,mb,,69,1.007,0.6,us,us70007v64,2020-05-09T21:41:14.040Z,"112km WSW of Rabaul, Papua New Guinea",earthquake,8.6,6.5,0.109,25,reviewed,us,us
+2020-02-23T10:03:35.999Z,33.685,141.3439,10,4.7,mb,,141,1.4,0.73,us,us70007v4s,2020-05-09T21:41:13.040Z,"158km ENE of Hachijo-jima, Japan",earthquake,8,1.9,0.11,25,reviewed,us,us
+2020-02-23T09:30:35.436Z,-7.1264,146.946,78.63,4.8,mb,,114,2.273,0.65,us,us70007v4d,2020-05-09T21:41:13.040Z,"33km ENE of Bulolo, Papua New Guinea",earthquake,10.4,8.3,0.09,38,reviewed,us,us
+2020-02-23T08:53:27.385Z,3.4063,-82.9063,10,4.5,mb,,170,4.988,0.53,us,us600085y5,2020-05-09T21:40:49.040Z,"South of Panama",earthquake,3.9,1.9,0.11,24,reviewed,us,us
+2020-02-23T05:53:01.055Z,38.4465,44.4168,10,5.8,mww,,22,1.075,0.78,us,us70007v29,2020-05-09T21:41:13.040Z,"30km SE of Saray, Turkey",earthquake,4.7,1.8,0.055,32,reviewed,us,us
+2020-02-23T03:39:52.824Z,-0.2256,125.2078,17.78,4.9,mww,,35,2.375,0.94,us,us70007v12,2020-05-09T21:41:13.040Z,"138km SE of Modayag, Indonesia",earthquake,6.1,3.1,0.098,10,reviewed,us,us
+2020-02-23T02:08:04.068Z,-0.1918,125.189,21.24,5.3,mww,,28,2.378,0.8,us,us70007v0d,2020-05-09T21:41:13.040Z,"134km SE of Lolayan, Indonesia",earthquake,5.1,2.9,0.065,23,reviewed,us,us
+2020-02-22T23:19:02.778Z,-38.2401,-93.7869,10,5,mb,,73,15.921,0.39,us,us70007uy9,2020-05-09T21:41:12.040Z,"West Chile Rise",earthquake,7.6,1.8,0.056,103,reviewed,us,us
+2020-02-22T23:12:36.918Z,-38.1463,-93.7502,10,5.5,mww,,20,15.895,0.62,us,us70007uy4,2020-05-09T21:41:12.040Z,"West Chile Rise",earthquake,9.6,1.7,0.041,56,reviewed,us,us
+2020-02-22T22:26:41.698Z,37.4132,31.4684,12.7,4.7,mb,,36,0.874,0.68,us,us70007uxg,2020-05-09T21:41:12.040Z,"4km WNW of Derebucak, Turkey",earthquake,4.4,4.4,0.054,103,reviewed,us,us
+2020-02-22T21:05:13.835Z,-21.7839,-175.0171,35,4.7,mb,,93,14.202,0.78,us,us600085b2,2020-05-09T21:40:49.040Z,"50km S of `Ohonua, Tonga",earthquake,12.4,2,0.118,22,reviewed,us,us
+2020-02-22T20:14:23.943Z,0.4553,126.3766,30.99,4.5,mb,,48,1.038,0.59,us,us600085az,2020-05-09T21:40:48.040Z,"116km WSW of Kota Ternate, Indonesia",earthquake,6.8,5.5,0.106,26,reviewed,us,us
+2020-02-22T19:46:11.305Z,-21.8248,-174.6574,10,5.6,mww,,41,5.21,0.82,us,us70007uvu,2020-05-09T21:41:12.040Z,"62km SSE of `Ohonua, Tonga",earthquake,8.8,1.8,0.068,21,reviewed,us,us
+2020-02-22T19:28:38.583Z,-21.9769,-174.5266,10,4.5,mb,,115,5.187,1.05,us,us600085ay,2020-05-09T21:40:48.040Z,"83km SSE of `Ohonua, Tonga",earthquake,9.9,1.9,0.205,7,reviewed,us,us
+2020-02-22T18:50:18.266Z,-21.7784,-174.8885,17.54,5.3,mww,,43,5.373,0.69,us,us70007uuu,2020-05-09T21:41:11.040Z,"49km S of `Ohonua, Tonga",earthquake,8.5,3.2,0.093,11,reviewed,us,us
+2020-02-22T16:29:36.421Z,5.4215,126.6995,50.54,4.6,mb,,107,1.98,1.01,us,us70007usz,2020-05-09T21:41:11.040Z,"118km SSE of Pondaguitan, Philippines",earthquake,7.5,5.5,0.064,73,reviewed,us,us
+2020-02-22T15:39:06.457Z,5.2525,126.8273,35,4.9,mb,,158,2.19,1.23,us,us70007usq,2020-05-09T21:41:11.040Z,"142km SSE of Pondaguitan, Philippines",earthquake,8.5,2,0.11,26,reviewed,us,us
+2020-02-22T15:34:42.014Z,5.5251,126.6597,23.5,5.3,mww,,107,1.873,0.95,us,us70007usp,2020-05-09T21:41:11.040Z,"106km SSE of Pondaguitan, Philippines",earthquake,7.2,1.9,0.078,16,reviewed,us,us
+2020-02-22T15:29:48.110Z,5.4617,126.7769,13.5,5.1,mww,,76,1.992,0.98,us,us70007usm,2020-05-09T21:41:11.040Z,"119km SSE of Pondaguitan, Philippines",earthquake,9,1.9,0.066,22,reviewed,us,us
+2020-02-22T14:44:32.043Z,-39.2904,-92.7299,10,4.5,mb,,202,17.05,1.03,us,us70007us6,2020-05-09T21:41:11.040Z,"Southeast of Easter Island",earthquake,13.2,2,0.093,34,reviewed,us,us
+2020-02-22T10:14:30.853Z,6.2994,-72.0945,10,4.5,mb,,79,2.645,0.6,us,us70007uqn,2020-05-09T21:41:11.040Z,"39km WNW of Municipio Hato Corozal, Colombia",earthquake,8.4,1.9,0.074,53,reviewed,us,us
+2020-02-22T08:47:04.367Z,27.0302,143.6732,10,4.9,mww,,115,1.329,0.49,us,us70007upz,2020-05-09T21:41:10.040Z,"144km E of Chichi-shima, Japan",earthquake,7.8,1.9,0.078,16,reviewed,us,us
+2020-02-22T08:46:05.887Z,37.2739,71.5469,117.05,4.6,mb,,61,2.215,0.82,us,us70007upy,2020-05-09T21:41:10.040Z,"23km S of Khorugh, Tajikistan",earthquake,4.8,10,0.157,12,reviewed,us,us
+2020-02-22T06:55:37.276Z,-2.8526,147.639,10,4.5,mb,,203,0.848,0.71,us,us70007upc,2020-05-09T21:41:10.040Z,"100km SSE of Lorengau, Papua New Guinea",earthquake,9,2,0.144,14,reviewed,us,us
+2020-02-22T06:16:03.980Z,-56.1342,-27.5202,58.85,4.5,mb,,77,5.459,0.5,us,us600085ae,2020-05-09T21:40:48.040Z,"66km NNW of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,7.1,8.6,0.15,13,reviewed,us,us
+2020-02-22T04:31:21.261Z,19.2638,121.1478,35,4.9,mb,,62,3.536,0.76,us,us70007umy,2020-05-09T21:41:10.040Z,"72km N of Claveria, Philippines",earthquake,7.5,1.9,0.039,206,reviewed,us,us
+2020-02-22T03:19:28.366Z,13.4175,146.4244,10,5,mb,,93,1.523,0.55,us,us6000859z,2020-12-19T03:29:39.688Z,"155km ESE of Rota, Northern Mariana Islands",earthquake,7.4,1.8,0.048,139,reviewed,us,us
+2020-02-22T02:32:44.600Z,-11.9119,165.5183,10,5,mb,,52,6.001,0.77,us,us70007ulg,2020-05-09T21:41:10.040Z,"136km SSW of Lata, Solomon Islands",earthquake,9.5,1.8,0.049,133,reviewed,us,us
+2020-02-22T01:24:23.122Z,-54.3654,-118.7391,10,4.9,mb,,53,27.873,0.55,us,us600085ah,2020-05-09T21:40:48.040Z,"Southern East Pacific Rise",earthquake,17.1,1.8,0.098,33,reviewed,us,us
+2020-02-22T01:11:03.690Z,-8.1132,129.0865,30.74,5.2,mb,,112,2.194,0.59,us,us600085a5,2020-05-09T21:40:48.040Z,"246km W of Saumlaki, Indonesia",earthquake,7.7,7.2,0.096,36,reviewed,us,us
+2020-02-21T22:54:24.847Z,-5.1177,102.7216,35,4.9,mb,,106,0.787,1.28,us,us70007ui7,2020-05-09T21:41:09.040Z,"115km W of Kuripan, Indonesia",earthquake,6.7,1.9,0.077,52,reviewed,us,us
+2020-02-21T18:11:19.800Z,38.085,-30.5099,15.01,4.6,mb,,93,3.955,0.72,us,us600084qm,2020-05-09T21:40:48.040Z,"160km SSE of Santa Cruz das Flores, Portugal",earthquake,11.5,4.6,0.086,44,reviewed,us,us
+2020-02-21T15:39:14.765Z,39.7209,77.4323,10,4.8,mww,,99,2.009,1.35,us,us70007u7m,2020-05-09T21:41:08.040Z,"112km E of Arzak, China",earthquake,6.3,1.9,0.098,10,reviewed,us,us
+2020-02-21T12:35:45.268Z,6.7795,-72.9879,162.22,4.5,mb,,62,2.335,0.83,us,us70007u4y,2020-05-09T21:41:07.040Z,"10km NNE of Aratoca, Colombia",earthquake,5,8.8,0.034,260,reviewed,us,us
+2020-02-21T10:34:05.457Z,3.4822,-79.3807,10,4.8,mb,,145,4.276,0.88,us,us70007u3c,2020-05-09T21:41:06.040Z,"149km NW of Mosquera, Colombia",earthquake,4.2,1.9,0.03,340,reviewed,us,us
+2020-02-21T10:24:32.589Z,50.8819,-179.3089,10,4.6,mb,,140,0.741,0.53,us,us70007u3w,2020-05-09T21:41:06.040Z,"44km SSW of Amatignak Island, Alaska",earthquake,4.9,1.9,0.057,94,reviewed,us,us
+2020-02-21T10:20:14.460Z,50.8347,-179.2666,10,5.3,mww,,76,0.774,0.8,us,us70007u2w,2020-12-25T10:30:22.305Z,"48km SSW of Amatignak Island, Alaska",earthquake,2.1,1.7,0.043,51,reviewed,us,us
+2020-02-21T06:44:48.240Z,-9.2263,-79.2455,53.07,4.9,mb,,152,3.62,0.78,us,us70007u0y,2020-05-09T21:41:05.040Z,"70km WSW of Puerto Santa, Peru",earthquake,8.9,8.2,0.06,86,reviewed,us,us
+2020-02-21T02:55:18.191Z,36.7277,5.6067,10,4.5,mb,,73,3.182,0.68,us,us70007tzd,2020-05-09T21:41:05.040Z,"17km SW of Jijel, Algeria",earthquake,4.2,1.9,0.089,37,reviewed,us,us
+2020-02-21T01:48:14.355Z,17.3288,-100.4434,31.57,4.7,mb,,62,0.115,1,us,us70007typ,2020-05-09T21:41:05.040Z,"14km N of Atoyac de Alvarez, Mexico",earthquake,3.9,4.9,0.026,446,reviewed,us,us
+2020-02-21T00:57:18.236Z,-7.4707,107.6526,67.11,4.6,mb,,71,0.008,1.35,us,us70007ty9,2020-05-09T21:41:05.040Z,"1km SE of Rahayu, Indonesia",earthquake,6.6,3.4,0.097,32,reviewed,us,us
+2020-02-20T20:24:28.512Z,-6.7432,129.6245,163.21,5.4,mww,,24,2.067,1.01,us,us70007tt3,2020-05-09T21:41:04.040Z,"229km NW of Saumlaki, Indonesia",earthquake,6.8,4,0.047,44,reviewed,us,us
+2020-02-20T18:57:36.124Z,53.7001,160.6757,32,5.8,mww,,68,1.39,0.96,us,us70007trb,2020-05-09T21:41:04.040Z,"153km ENE of Petropavlovsk-Kamchatskiy, Russia",earthquake,7.4,1.7,0.055,32,reviewed,us,us
+2020-02-20T18:11:03.046Z,34.5533,85.7767,10,4.6,mb,,58,6.633,1,us,us70007tp0,2020-05-09T21:41:04.040Z,"292km NNE of Luring, China",earthquake,8.6,1.8,0.065,71,reviewed,us,us
+2020-02-20T18:01:35.341Z,34.5182,85.6961,10,5.1,mb,,61,6.608,0.85,us,us70007tnv,2020-05-09T21:41:04.040Z,"285km NNE of Luring, China",earthquake,7.8,1.8,0.043,179,reviewed,us,us
+2020-02-20T17:35:35.589Z,29.7617,140.4757,129.05,4.6,mb,,98,3.052,1,us,us70007tm3,2020-05-09T21:41:04.040Z,"Izu Islands, Japan region",earthquake,7.6,5.7,0.042,173,reviewed,us,us
+2020-02-20T14:10:06.188Z,-1.3634,-103.4072,10,4.8,mb,,63,19.403,0.98,us,us70007tjg,2020-05-09T21:41:03.040Z,"Central East Pacific Rise",earthquake,13.7,1.8,0.035,253,reviewed,us,us
+2020-02-20T14:02:48.955Z,1.4999,132.7519,10,4.5,mb,,125,4.418,1.17,us,us70007tjd,2020-05-09T21:41:03.040Z,"300km NNW of Manokwari, Indonesia",earthquake,11.7,1.9,0.121,20,reviewed,us,us
+2020-02-20T12:33:04.160Z,28.452,142.7387,10,4.5,mb,,163,1.437,0.65,us,us600084p9,2020-05-09T21:40:47.040Z,"160km NNE of Chichi-shima, Japan",earthquake,9.7,1.9,0.128,18,reviewed,us,us
+2020-02-20T09:54:07.296Z,5.5936,125.5446,201.06,5.4,mww,,43,1.466,1.07,us,us70007th0,2020-05-09T21:41:03.040Z,"11km SE of Sugal, Philippines",earthquake,4.1,3.8,0.053,34,reviewed,us,us
+2020-02-20T08:51:20.210Z,14.5016,147.0138,10,4.6,mb,,123,1.393,0.83,us,us600084p5,2020-05-09T21:40:47.040Z,"156km ESE of Saipan, Northern Mariana Islands",earthquake,5.6,1.9,0.125,19,reviewed,us,us
+2020-02-20T07:41:20.616Z,-56.5826,-27.4604,178.55,4.6,mb,,80,5.632,0.32,us,us600084pa,2020-05-09T21:40:47.040Z,"20km NW of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,12,5.8,0.105,27,reviewed,us,us
+2020-02-20T06:42:24.887Z,-54.5632,5.4124,10,5,mb,,73,17.541,0.46,us,us70007tf6,2020-05-09T21:41:03.040Z,"134km E of Bouvet Island, Bouvet Island",earthquake,13.7,1.9,0.111,26,reviewed,us,us
+2020-02-20T06:35:31.625Z,-34.285,-178.9599,10,5.2,mww,,75,5.1,1.04,us,us70007tf0,2020-05-09T21:41:03.040Z,"South of the Kermadec Islands",earthquake,10.8,1.8,0.083,14,reviewed,us,us
+2020-02-20T04:56:09.277Z,2.7562,125.773,135.4,4.5,mb,,170,2.534,0.69,us,us600084p1,2020-05-09T21:40:46.040Z,"159km NNE of Bitung, Indonesia",earthquake,6.1,9.7,0.135,16,reviewed,us,us
+2020-02-20T04:16:36.637Z,-23.8386,-176.1686,39.68,4.7,mb,,124,7.498,0.94,us,us600084nz,2020-05-09T21:40:46.040Z,"South of the Fiji Islands",earthquake,5.2,6.6,0.108,26,reviewed,us,us
+2020-02-20T04:01:42.421Z,-57.4848,-26.0606,67.06,5.2,mb,,35,6.684,0.63,us,us70007tdi,2020-05-09T21:41:02.040Z,"111km SE of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,10.6,4.6,0.078,54,reviewed,us,us
+2020-02-20T03:53:09.975Z,35.3338,140.4729,35,4.5,mb,,116,1.99,1.31,us,us70007tdf,2020-05-09T21:41:02.040Z,"12km NE of Ohara, Japan",earthquake,6.8,2,0.077,50,reviewed,us,us
+2020-02-20T00:48:11.141Z,26.9522,143.7101,10,4.6,mb,,138,1.368,0.39,us,us70007tc3,2020-05-09T21:41:02.040Z,"148km E of Chichi-shima, Japan",earthquake,8.9,1.9,0.071,60,reviewed,us,us
+2020-02-19T21:38:00.691Z,43.677,-128.5221,9.84,4.9,mww,,173,2.311,0.76,us,us70007t8b,2020-05-09T21:41:01.040Z,"Off the coast of Oregon",earthquake,8,1.7,0.038,67,reviewed,us,us
+2020-02-19T20:52:58.369Z,-25.4871,179.9314,500.26,4.5,mb,,157,4.198,0.83,us,us600084k8,2020-05-09T21:40:46.040Z,"South of the Fiji Islands",earthquake,15,10.8,0.121,20,reviewed,us,us
+2020-02-19T17:37:35.857Z,-5.585,149.0255,173.1,4.8,mb,,70,3.419,1.07,us,us70007t3n,2020-05-09T21:41:00.040Z,"90km NW of Kandrian, Papua New Guinea",earthquake,8.4,7.2,0.098,32,reviewed,us,us
+2020-02-19T15:59:18.873Z,12.4475,144.3059,10,4.6,mb,,99,1.26,0.69,us,us600084k5,2020-05-09T21:40:46.040Z,"98km SSW of Merizo Village, Guam",earthquake,12.2,1.9,0.122,20,reviewed,us,us
+2020-02-19T15:54:56.849Z,12.4564,144.4033,10,4.9,mww,,45,1.213,0.85,us,us70007t2i,2020-05-13T16:05:02.340Z,"94km SSW of Merizo Village, Guam",earthquake,8.3,1.7,0.11,8,reviewed,us,us
+2020-02-19T15:50:33.807Z,43.284,143.8159,23.95,4.7,mb,,110,1.217,0.84,us,us70007t2h,2020-05-09T21:41:00.040Z,"56km NW of Kushiro, Japan",earthquake,6.4,4.8,0.044,153,reviewed,us,us
+2020-02-19T14:58:47.637Z,-55.1515,-36.0556,10,4.6,mb,,100,0.905,0.51,us,us600084k3,2020-05-09T21:40:46.040Z,"101km SSE of Grytviken, South Georgia and the South Sandwich Islands",earthquake,11.4,1.9,0.125,19,reviewed,us,us
+2020-02-19T11:01:33.594Z,-0.6314,127.4988,30.11,4.6,mb,,88,1.4,0.67,us,us70007szg,2020-05-09T21:40:59.040Z,"81km NNW of Laiwui, Indonesia",earthquake,4.9,5.6,0.083,44,reviewed,us,us
+2020-02-19T09:47:20.388Z,-0.0968,122.9857,122.04,4.6,mb,,44,0.962,0.61,us,us70007syx,2020-05-09T21:40:59.040Z,"58km SSW of Bilungala, Indonesia",earthquake,4.5,6.7,0.058,89,reviewed,us,us
+2020-02-19T09:42:01.864Z,13.1833,146.3897,10,4.8,mb,,124,1.534,0.63,us,us70007sz4,2020-05-09T21:40:59.040Z,"166km ESE of Yigo Mayor's Office, Guam",earthquake,7.8,1.9,0.05,124,reviewed,us,us
+2020-02-19T09:38:24.181Z,77.4516,7.5273,10,4.5,mb,,48,2.013,0.77,us,us70007syw,2020-05-09T21:40:59.040Z,"209km WSW of Longyearbyen, Svalbard and Jan Mayen",earthquake,4.2,1.9,0.057,91,reviewed,us,us
+2020-02-19T09:36:38.223Z,17.5983,119.875,10,4.5,mb,,113,5.916,0.54,us,us600084jz,2020-05-09T21:40:46.040Z,"51km W of Puro Pingit, Philippines",earthquake,4.6,1.9,0.097,32,reviewed,us,us
+2020-02-19T05:27:45.683Z,23.8332,121.5896,10,4.5,mwr,,99,0.339,1.27,us,us70007swc,2020-05-09T21:40:58.040Z,"15km S of Hualian, Taiwan",earthquake,3,1.8,0.073,18,reviewed,us,us
+2020-02-19T05:10:42.833Z,-19.3984,-173.1516,10,4.6,mb,,103,3.063,0.99,us,us70007swm,2020-05-09T21:40:58.040Z,"120km SE of Neiafu, Tonga",earthquake,9.7,1.8,0.11,25,reviewed,us,us
+2020-02-18T23:40:15.625Z,-6.0771,147.2493,79.05,4.5,mb,,103,3.307,1.08,us,us70007vy0,2020-05-02T22:10:37.040Z,"77km NNE of Lae, Papua New Guinea",earthquake,10.3,8.5,0.096,32,reviewed,us,us
+2020-02-18T23:07:05.107Z,38.9306,71.8207,10,4.6,mb,,42,0.552,0.73,us,us70007sqx,2020-05-02T22:10:24.040Z,"42km SE of Karakenja, Tajikistan",earthquake,5.3,1.8,0.059,86,reviewed,us,us
+2020-02-18T22:17:25.457Z,46.9246,116.1547,10,4.5,mb,,53,3.359,0.83,us,us70007spx,2020-05-02T22:10:21.040Z,"65km E of Dzuunbulag, Mongolia",earthquake,7.4,1.9,0.081,45,reviewed,us,us
+2020-02-18T21:41:39.530Z,-20.7677,-69.3199,86.09,4.5,mwr,,88,0.315,0.71,us,us70007snb,2020-05-02T22:10:21.040Z,"105km SE of Iquique, Chile",earthquake,4.3,4.6,0.056,31,reviewed,us,us
+2020-02-18T19:45:27.044Z,-6.4865,154.9591,65.52,4.5,mb,,93,3.598,0.77,us,us70007vxl,2020-05-02T22:10:37.040Z,"61km WSW of Panguna, Papua New Guinea",earthquake,6.8,8.2,0.115,28,reviewed,us,us
+2020-02-18T17:06:07.019Z,-19.1068,-175.729,226.17,4.6,mb,,180,5.486,0.59,us,us70007vxu,2020-05-02T22:10:37.040Z,"163km WNW of Pangai, Tonga",earthquake,23.1,18.9,0.103,31,reviewed,us,us
+2020-02-18T16:09:23.758Z,39.1074,27.8179,10,4.8,mb,,24,0.534,0.68,us,us70007sgb,2020-05-02T22:10:20.040Z,"12km E of Kirkagac, Turkey",earthquake,2.8,1.8,0.06,87,reviewed,us,us
+2020-02-18T15:05:53.545Z,-29.5603,-177.8985,71.88,4.6,mb,,108,0.315,0.8,us,us70007vxd,2020-05-02T22:10:36.040Z,"32km S of Raoul Island, New Zealand",earthquake,13.8,5.8,0.146,14,reviewed,us,us
+2020-02-18T14:06:07.670Z,-31.3193,-177.7839,10,4.5,mb,,259,2.071,0.74,us,us70007vxb,2020-05-02T22:10:36.040Z,"106km E of L'Esperance Rock, New Zealand",earthquake,11.4,2,0.18,9,reviewed,us,us
+2020-02-18T11:50:13.436Z,-15.1711,-178.5704,405.65,4.7,mb,,93,4.128,0.66,us,us70007sbx,2020-05-02T22:10:20.040Z,"105km SSW of Sigave, Wallis and Futuna",earthquake,11.4,6.6,0.031,321,reviewed,us,us
+2020-02-18T11:28:05.727Z,37.9615,72.6827,128.81,4.7,mb,,65,1.667,0.55,us,us70007sbn,2020-05-02T22:10:19.040Z,"108km NE of Roshtqal'a, Tajikistan",earthquake,6.9,4.7,0.053,107,reviewed,us,us
+2020-02-18T08:21:35.742Z,-5.6027,154.4334,149.03,4.6,mb,,74,2.66,0.8,us,us70007sa4,2020-05-02T22:10:16.040Z,"139km WNW of Arawa, Papua New Guinea",earthquake,8.9,6.9,0.049,127,reviewed,us,us
+2020-02-18T07:29:39.013Z,85.729,22.6943,10,5.5,mww,,20,7.638,0.72,us,us70007s90,2020-11-07T06:17:12.758Z,"North of Svalbard",earthquake,7.5,1.1,0.046,45,reviewed,us,us
+2020-02-18T06:22:05.833Z,2.0804,127.9601,47.95,4.9,mb,,103,1.428,1.14,us,us70007s8k,2020-05-02T22:10:16.040Z,"39km N of Tobelo, Indonesia",earthquake,6.4,7,0.069,65,reviewed,us,us
+2020-02-18T05:32:45.462Z,-35.5964,-73.2435,10,5,mww,,84,1.149,1.06,us,us70007s7z,2020-05-02T22:10:15.040Z,"80km WSW of Constitucion, Chile",earthquake,4.7,1.7,0.056,31,reviewed,us,us
+2020-02-18T03:45:32.010Z,30.5218,131.13,35,4.7,mb,,123,7.408,0.61,us,us70007vwu,2020-05-02T22:10:35.040Z,"26km SSE of Nishinoomote, Japan",earthquake,11.3,2,0.123,20,reviewed,us,us
+2020-02-18T03:45:11.133Z,30.4795,131.1893,35,4.5,mb,,123,1.205,0.81,us,us70007s72,2020-05-02T22:10:12.040Z,"33km SSE of Nishinoomote, Japan",earthquake,5.5,2,0.125,19,reviewed,us,us
+2020-02-18T02:58:08.578Z,5.4115,125.9403,102.94,4.5,mb,,109,1.686,0.7,us,us70007s6p,2020-05-02T22:10:12.040Z,"52km E of Sarangani, Philippines",earthquake,8.7,6.8,0.091,35,reviewed,us,us
+2020-02-17T20:48:51.835Z,-6.3559,143.3792,10,4.5,mb,,80,4.655,1.25,us,us70007u9y,2020-05-02T22:10:33.040Z,"36km WSW of Mendi, Papua New Guinea",earthquake,6.9,1.8,0.191,8,reviewed,us,us
+2020-02-17T18:53:11.391Z,-7.6138,-74.6648,149.86,4.5,mb,,71,1.946,1.13,us,us70007rzb,2020-05-02T22:10:09.040Z,"49km SE of Contamana, Peru",earthquake,7.2,6.1,0.05,120,reviewed,us,us
+2020-02-17T18:41:37.309Z,-52.4219,139.4857,10,4.5,mb,,134,19.991,0.98,us,us70007u9x,2020-05-02T22:10:33.040Z,"West of Macquarie Island",earthquake,7.9,1.9,0.18,9,reviewed,us,us
+2020-02-17T15:53:46.960Z,3.8083,-32.495,10,4.5,mb,,127,10.158,0.99,us,us70007u9u,2020-05-02T22:10:33.040Z,"Central Mid-Atlantic Ridge",earthquake,10.4,1.8,0.131,20,reviewed,us,us
+2020-02-17T15:07:27.566Z,-6.312,130.2501,130.47,4.5,mb,,53,1.959,0.35,us,us70007rvh,2020-05-02T22:10:09.040Z,"216km NNW of Saumlaki, Indonesia",earthquake,7.6,8.9,0.11,24,reviewed,us,us
+2020-02-17T14:20:24.900Z,37.0873,-14.6205,10,4.7,mb,,63,4.631,1.13,us,us70007rv1,2020-05-02T22:10:08.040Z,"Azores-Cape St. Vincent Ridge",earthquake,7.4,1.7,0.165,11,reviewed,us,us
+2020-02-17T13:50:21.796Z,-4.5035,138.7207,145.57,4.8,mb,,75,2.797,0.7,us,us70007rur,2020-05-02T22:10:08.040Z,"246km NW of Tanahmerah, Indonesia",earthquake,8.4,7.4,0.119,23,reviewed,us,us
+2020-02-17T13:34:13.694Z,-17.7246,-178.6572,558.59,4.5,mb,,133,3.135,0.47,us,us70007u9r,2020-05-02T22:10:33.040Z,"253km SE of Lambasa, Fiji",earthquake,16.2,5.2,0.098,31,reviewed,us,us
+2020-02-17T12:54:53.982Z,28.6016,142.6583,10,5.3,mww,,33,1.557,0.94,us,us70007rty,2020-05-02T22:10:08.040Z,"173km NNE of Chichi-shima, Japan",earthquake,3.9,1.7,0.049,40,reviewed,us,us
+2020-02-17T12:11:45.998Z,-7.3064,105.9296,47.04,4.7,mb,,83,1.713,1.3,us,us70007rtb,2020-05-02T22:10:08.040Z,"51km SSW of Panyaungan Timur, Indonesia",earthquake,8.2,6.5,0.093,35,reviewed,us,us
+2020-02-17T11:37:26.730Z,-19.6544,-173.0266,10,4.8,mb,,86,2.982,0.77,us,us70007u9w,2020-05-02T22:10:33.040Z,"139km E of Pangai, Tonga",earthquake,8.8,1.8,0.1,31,reviewed,us,us
+2020-02-17T09:18:06.267Z,57.5151,-156.0645,100.7,4.9,ml,,,,0.92,ak,ak02027j9fgu,2020-05-02T22:10:05.040Z,"123km W of Larsen Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2020-02-17T07:10:09.702Z,35.2009,27.9563,10,4.5,mb,,181,0.736,0.52,us,us70007u9g,2020-05-02T22:10:32.040Z,"75km ESE of Karpathos, Greece",earthquake,5.1,1.9,0.163,11,reviewed,us,us
+2020-02-17T06:24:55.483Z,-54.6058,5.2831,10,4.7,mb,,177,17.488,0.2,us,us70007u9n,2020-05-02T22:10:32.040Z,"126km E of Bouvet Island, Bouvet Island",earthquake,7.6,1.9,0.166,11,reviewed,us,us
+2020-02-17T06:19:51.636Z,-55.8346,-26.9192,35,4.6,mb,,151,5.715,0.71,us,us70007u9k,2020-05-02T22:10:32.040Z,"97km N of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,14.8,2,0.122,20,reviewed,us,us
+2020-02-17T05:10:27.743Z,-59.9705,-27.6715,96.39,5.3,mb,,49,7.446,0.69,us,us70007rnf,2020-05-02T22:10:04.040Z,"123km SSW of Bristol Island, South Sandwich Islands",earthquake,10.5,5.2,0.058,99,reviewed,us,us
+2020-02-17T03:54:33.440Z,-4.2649,152.9787,42.98,4.6,mb,,81,0.816,0.82,us,us70007rmp,2020-05-02T22:10:02.040Z,"23km NNW of Taron, Papua New Guinea",earthquake,8.1,5.4,0.072,57,reviewed,us,us
+2020-02-17T03:40:52.968Z,35.8956,140.1472,56.98,4.6,mb,,96,1.666,0.62,us,us70007rmf,2020-05-02T22:10:02.040Z,"3km W of Ryugasaki, Japan",earthquake,7,6.8,0.042,168,reviewed,us,us
+2020-02-17T03:33:14.845Z,51.1425,-178.1609,35,4.7,mwr,,122,0.58,0.99,us,us70007rm3,2020-05-02T22:10:02.040Z,"67km E of Amatignak Island, Alaska",earthquake,4.2,1.9,0.089,12,reviewed,us,us
+2020-02-17T00:28:18.140Z,-33.105,179.8741,178.25,5.4,mww,,24,4.283,0.82,us,us70007rk0,2020-05-02T22:10:01.040Z,"218km SSW of L'Esperance Rock, New Zealand",earthquake,8.4,3.9,0.055,32,reviewed,us,us
+2020-02-16T22:05:44.273Z,-21.932,-68.4679,104.1,5.2,mww,,24,0.731,0.77,us,us70007rhe,2020-05-02T22:10:00.040Z,"76km NE of Calama, Chile",earthquake,5.1,3.9,0.055,32,reviewed,us,us
+2020-02-16T20:48:14.218Z,-17.417,-173.9706,50.02,4.7,mb,,84,4.075,1.05,us,us70007u8g,2020-05-02T22:10:32.040Z,"136km N of Neiafu, Tonga",earthquake,11.9,8.4,0.086,41,reviewed,us,us
+2020-02-16T18:02:15.429Z,38.5223,44.3881,10,4.7,mb,,58,1.065,1.09,us,us70007rei,2020-05-02T22:10:00.040Z,"23km SE of Saray, Turkey",earthquake,4.8,1.8,0.055,102,reviewed,us,us
+2020-02-16T16:47:12.729Z,-34.2707,55.6773,10,4.7,mb,,113,11.954,0.7,us,us70007u8d,2020-05-02T22:10:32.040Z,"Southwest Indian Ridge",earthquake,8.6,1.9,0.148,16,reviewed,us,us
+2020-02-16T16:36:11.413Z,-31.6852,57.7943,10,4.6,mb,,79,10.631,0.41,us,us70007u8c,2020-05-02T22:10:32.040Z,"Southwest Indian Ridge",earthquake,11.2,1.9,0.151,15,reviewed,us,us
+2020-02-16T16:16:30.057Z,-20.1816,66.4355,10,4.6,mb,,151,2.914,0.57,us,us70007u8b,2020-05-02T22:10:31.040Z,"Mauritius - Reunion region",earthquake,13.3,1.9,0.125,19,reviewed,us,us
+2020-02-16T15:51:28.744Z,-15.619,-177.4798,406.77,4.5,mb,,106,4.774,0.66,us,us70007rci,2020-05-02T22:09:59.040Z,"163km SSE of Sigave, Wallis and Futuna",earthquake,9.8,6.4,0.04,184,reviewed,us,us
+2020-02-16T15:35:06.641Z,-15.1584,-173.9215,106.53,4.5,mb,,116,2.419,0.29,us,us70007u8a,2020-05-02T22:10:31.040Z,"89km NNW of Hihifo, Tonga",earthquake,11.3,9.5,0.164,11,reviewed,us,us
+2020-02-16T15:32:47.237Z,-15.2223,-173.9814,91.02,4.6,mb,,76,2.501,0.53,us,us70007rcq,2020-05-02T22:09:59.040Z,"84km NNW of Hihifo, Tonga",earthquake,10.6,6.6,0.073,61,reviewed,us,us
+2020-02-16T14:35:37.511Z,-22.5212,-174.6942,10,4.9,mb,,99,5.624,1.06,us,us70007u87,2020-05-02T22:10:31.040Z,"134km S of `Ohonua, Tonga",earthquake,8.2,1.8,0.067,69,reviewed,us,us
+2020-02-16T12:30:47.136Z,27.1286,55.7659,8.52,5.1,mww,,54,2.209,0.85,us,us70007rb0,2020-05-02T22:09:59.040Z,"51km W of Bandar 'Abbas, Iran",earthquake,6.9,3.9,0.093,11,reviewed,us,us
+2020-02-16T12:24:53.242Z,27.1527,55.8212,10,4.6,mb,,109,2.225,0.86,us,us70007raz,2020-05-02T22:09:59.040Z,"45km W of Bandar 'Abbas, Iran",earthquake,8.5,1.9,0.077,51,reviewed,us,us
+2020-02-16T11:49:56.659Z,-34.2424,-178.886,10,4.6,mb,,153,4.02,0.61,us,us70007u83,2020-05-02T22:10:31.040Z,"South of the Kermadec Islands",earthquake,10,1.9,0.165,11,reviewed,us,us
+2020-02-16T11:18:12.767Z,28.6382,142.6677,10,5,mb,,136,1.595,0.45,us,us70007rab,2020-05-02T22:09:58.040Z,"177km NNE of Chichi-shima, Japan",earthquake,9.1,1.9,0.086,43,reviewed,us,us
+2020-02-16T07:35:37.833Z,49.4091,155.5176,49.57,5.2,mww,,102,3.949,0.68,us,us70007r85,2020-05-02T22:09:57.040Z,"147km SSW of Severo-Kuril'sk, Russia",earthquake,8.8,4.9,0.065,23,reviewed,us,us
+2020-02-16T04:17:50.443Z,-18.0313,-174.5787,80.76,4.6,mb,,94,4.533,0.37,us,us70007u82,2020-05-02T22:10:31.040Z,"93km NW of Neiafu, Tonga",earthquake,9.6,12.6,0.182,9,reviewed,us,us
+2020-02-15T23:59:56.448Z,55.796,162.5664,47.68,4.5,mb,,85,3.599,0.63,us,us70007r42,2020-05-02T22:09:56.040Z,"48km S of Ust'-Kamchatsk Staryy, Russia",earthquake,8.7,6.9,0.055,98,reviewed,us,us
+2020-02-15T23:58:24.814Z,-50.1421,-7.1942,10,4.7,mb,,126,21.695,0.68,us,us70007u6z,2020-05-02T22:10:31.040Z,"Southern Mid-Atlantic Ridge",earthquake,14.1,1.9,0.147,14,reviewed,us,us
+2020-02-15T23:00:27.251Z,-3.3456,131.4839,10,5.6,mww,,14,0.873,1.01,us,us70007r1x,2020-05-02T22:09:56.040Z,"273km S of Sorong, Indonesia",earthquake,4.6,1.6,0.051,37,reviewed,us,us
+2020-02-15T21:23:41.230Z,25.0563,-109.6626,10,4.6,mb,,111,1.117,0.82,us,us70007r0d,2020-05-02T22:09:55.040Z,"86km SW of Topolobampo, Mexico",earthquake,6.6,1.9,0.08,46,reviewed,us,us
+2020-02-15T20:28:21.628Z,29.4344,104.6439,10,4.5,mb,,58,4.296,0.79,us,us70007r02,2020-05-02T22:09:55.040Z,"10km S of Yanling, China",earthquake,7.9,1.9,0.104,27,reviewed,us,us
+2020-02-15T19:20:13.015Z,23.7875,121.5967,9.41,4.8,mwr,,64,0.384,0.63,us,us70007qzb,2020-05-02T22:09:54.040Z,"20km S of Hualian, Taiwan",earthquake,2.8,3.4,0.069,20,reviewed,us,us
+2020-02-15T18:52:47.208Z,40.8796,144.9676,10,4.5,mb,,82,3.682,0.81,us,us70007qz1,2020-05-02T22:09:54.040Z,"237km SSE of Kushiro, Japan",earthquake,8.2,1.8,0.061,87,reviewed,us,us
+2020-02-15T17:46:59.635Z,1.5716,126.5765,47.38,4.5,mb,,59,1.12,1.06,us,us70007u6r,2020-05-02T22:10:31.040Z,"123km NW of Kota Ternate, Indonesia",earthquake,7.2,6.3,0.076,56,reviewed,us,us
+2020-02-15T16:50:47.346Z,2.861,127.1274,35,4.7,mb,,114,2.088,1.17,us,us70007qxh,2020-05-02T22:09:54.040Z,"159km NW of Tobelo, Indonesia",earthquake,11.1,2,0.117,22,reviewed,us,us
+2020-02-15T15:36:44.859Z,1.6105,126.6462,35,5.4,mww,,85,1.101,1.26,us,us70007qwf,2020-05-02T22:09:54.040Z,"121km NW of Kota Ternate, Indonesia",earthquake,5.8,1.9,0.071,19,reviewed,us,us
+2020-02-15T13:49:48.847Z,40.1236,50.4248,30.87,4.6,mb,,87,4.356,1.03,us,us70007qvu,2020-05-02T22:09:53.040Z,"29km SSE of Zyrya, Azerbaijan",earthquake,7.7,5,0.073,56,reviewed,us,us
+2020-02-15T12:47:49.108Z,-14.9599,167.2339,78.72,4.6,mb,,154,6.529,0.64,us,us70007u6k,2020-05-02T22:10:30.040Z,"22km ENE of Port-Olry, Vanuatu",earthquake,14.3,9.2,0.129,18,reviewed,us,us
+2020-02-15T11:05:00.364Z,23.816,121.5801,10,4.9,mww,,77,0.356,0.76,us,us70007qu3,2020-05-02T22:09:53.040Z,"17km S of Hualian, Taiwan",earthquake,3.4,1.8,0.098,10,reviewed,us,us
+2020-02-15T11:00:05.736Z,23.838,121.6166,10,5.3,mww,,35,0.334,0.67,us,us70007qtx,2020-05-03T03:59:45.272Z,"15km S of Hualian, Taiwan",earthquake,5,1.8,0.075,17,reviewed,us,us
+2020-02-15T09:45:57.157Z,3.5477,126.7507,45.51,4.7,mb,,91,2.825,0.79,us,us70007qt5,2020-05-02T22:09:52.040Z,"245km NW of Tobelo, Indonesia",earthquake,8.2,6.9,0.08,47,reviewed,us,us
+2020-02-15T09:39:15.121Z,-15.6935,179.9662,10,5.7,mww,,114,2.742,0.7,us,us70007qt0,2020-05-02T22:09:52.040Z,"101km NE of Lambasa, Fiji",earthquake,9.7,1.9,0.069,20,reviewed,us,us
+2020-02-15T07:06:00.195Z,49.8915,155.7118,102.31,4.5,mb,,125,3.452,0.79,us,us70007qrk,2020-05-02T22:09:52.040Z,"92km SSW of Severo-Kuril'sk, Russia",earthquake,8.6,8.3,0.096,32,reviewed,us,us
+2020-02-15T05:57:06.475Z,20.1368,121.3312,31.91,4.9,mb,,68,2.678,0.74,us,us70007qql,2020-05-02T22:09:52.040Z,"60km WSW of Sabtang, Philippines",earthquake,7.4,2,0.064,75,reviewed,us,us
+2020-02-15T05:00:41.562Z,12.3644,141.6485,21.95,4.5,mb,,78,3.366,0.6,us,us70007u6c,2020-05-02T22:10:30.040Z,"Mariana Islands region",earthquake,12.4,6.7,0.145,14,reviewed,us,us
+2020-02-15T03:44:18.287Z,-18.5736,176.4583,10,4.5,mb,,125,1.725,1.25,us,us70007u68,2020-05-02T22:10:30.040Z,"132km SW of Nadi, Fiji",earthquake,8.2,1.9,0.157,12,reviewed,us,us
+2020-02-15T03:31:56.345Z,41.8151,79.2761,10,5.1,mb,,37,0.615,1.06,us,us70007qp2,2020-05-02T22:09:51.040Z,"98km SE of Teploklyuchenka, Kyrgyzstan",earthquake,2.6,1.7,0.041,191,reviewed,us,us
+2020-02-15T03:02:02.584Z,-22.1239,-179.5157,594.59,4.5,mb,,90,4.92,0.58,us,us70007u66,2020-05-02T22:10:30.040Z,"183km SSW of Ndoi Island, Fiji",earthquake,13.9,4.6,0.099,30,reviewed,us,us
+2020-02-15T02:47:06.483Z,-57.2561,-25.3613,45.02,4.5,mb,,189,6.947,0.47,us,us70007u6f,2020-05-02T22:10:30.040Z,"127km ESE of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,8.9,9.1,0.163,11,reviewed,us,us
+2020-02-15T02:24:57.045Z,-57.3058,-25.3527,57.85,4.8,mb,,119,6.969,0.8,us,us70007u6e,2020-05-02T22:10:30.040Z,"130km ESE of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,12.9,6.2,0.121,21,reviewed,us,us
+2020-02-14T20:16:30.405Z,12.8738,-88.4638,75.67,4.9,mb,,65,1.418,0.98,us,us70007qf8,2020-05-02T22:09:50.040Z,"46km SSE of Puerto El Triunfo, El Salvador",earthquake,6.4,5.3,0.025,498,reviewed,us,us
+2020-02-14T17:41:03.922Z,26.775,143.9981,10,4.5,mb,,79,1.65,0.91,us,us70007tqp,2020-05-02T22:10:29.040Z,"180km E of Chichi-shima, Japan",earthquake,7.5,1.8,0.067,73,reviewed,us,us
+2020-02-14T16:02:16.346Z,35.7767,26.951,14.48,4.9,mb,,46,0.285,1.1,us,us70007q3r,2020-05-02T22:09:50.040Z,"38km NW of Karpathos, Greece",earthquake,4.8,4,0.056,99,reviewed,us,us
+2020-02-14T15:40:18.158Z,-52.8484,21.0989,10,4.6,mb,,167,19.928,1.3,us,us70007tqk,2020-05-02T22:10:29.040Z,"South of Africa",earthquake,14.7,1.9,0.132,18,reviewed,us,us
+2020-02-14T15:10:47.668Z,-12.5648,-77.9474,10,4.9,mb,,104,1.223,1.21,us,us70007q2d,2020-05-02T22:09:50.040Z,"102km WSW of Callao, Peru",earthquake,7.4,1.9,0.108,27,reviewed,us,us
+2020-02-14T13:50:44.616Z,-16.6992,-73.0849,50.45,4.9,mb,,132,3.1,1.14,us,us70007q0f,2020-05-02T22:09:49.040Z,"40km WSW of Camana, Peru",earthquake,6.4,5.6,0.042,175,reviewed,us,us
+2020-02-14T11:17:05.412Z,51.5494,-130.9734,10,4.6,mwr,,152,0.757,1.06,us,us70007pya,2020-05-02T22:09:49.040Z,"208km WSW of Bella Bella, Canada",earthquake,6.2,1.9,0.068,21,reviewed,us,us
+2020-02-14T10:14:48.748Z,-31.4252,-176.9729,10,4.5,mb,,207,2.324,0.61,us,us70007tq7,2020-05-02T22:10:28.040Z,"183km E of L'Esperance Rock, New Zealand",earthquake,6.7,2,0.15,14,reviewed,us,us
+2020-02-14T09:55:28.590Z,-58.905,-25.5422,35,5.1,mb,,50,15.726,0.8,us,us70007pxg,2020-05-02T22:09:49.040Z,"57km ENE of Bristol Island, South Sandwich Islands",earthquake,10.5,1.9,0.066,74,reviewed,us,us
+2020-02-14T07:58:43.239Z,-55.156,-32.5299,10,4.7,mb,,68,2.456,0.53,us,us70007tq0,2020-05-02T22:10:28.040Z,"274km ESE of Grytviken, South Georgia and the South Sandwich Islands",earthquake,8.2,1.9,0.127,19,reviewed,us,us
+2020-02-14T06:22:26.278Z,30.0463,142.4704,10,4.7,mb,,143,2.95,0.93,us,us70007pvq,2020-05-02T22:09:48.040Z,"Izu Islands, Japan region",earthquake,8.1,1.7,0.087,40,reviewed,us,us
+2020-02-14T05:59:00.044Z,-56.6552,-142.2857,10,5.6,mww,,55,25.192,0.76,us,us70007q3m,2020-05-02T22:09:50.040Z,"Pacific-Antarctic Ridge",earthquake,5.2,1.8,0.098,10,reviewed,us,us
+2020-02-14T04:13:25.363Z,28.3824,142.7365,10,4.5,mb,,168,1.372,0.84,us,us70007tr5,2020-05-02T22:10:29.040Z,"152km NNE of Chichi-shima, Japan",earthquake,10.1,2,0.181,9,reviewed,us,us
+2020-02-14T01:47:58.312Z,-4.4505,102.8111,62.89,4.7,mb,,103,0.169,1.04,us,us70007pt0,2020-05-02T22:09:47.040Z,"69km SW of Pagaralam, Indonesia",earthquake,9.9,3,0.099,31,reviewed,us,us
+2020-02-14T01:29:41.493Z,5.5129,-73.3156,5.06,4.5,mb,,65,1.201,0.84,us,us70007pt2,2020-05-02T22:09:47.040Z,"6km ESE of Tunja, Colombia",earthquake,7,6.1,0.115,22,reviewed,us,us
+2020-02-14T01:13:40.006Z,28.4619,142.776,10,4.6,mb,,153,1.458,0.33,us,us70007pst,2020-05-02T22:09:47.040Z,"162km NNE of Chichi-shima, Japan",earthquake,9.9,1.9,0.126,19,reviewed,us,us
+2020-02-13T23:31:34.644Z,-10.3835,161.5203,90.08,4.6,mb,,95,1.811,0.84,us,us70007prr,2020-05-02T22:09:47.040Z,"44km W of Kirakira, Solomon Islands",earthquake,9.9,6.5,0.049,124,reviewed,us,us
+2020-02-13T21:38:44.151Z,22.4641,121.3181,35,4.6,mwr,,55,0.415,0.97,us,us70007ppd,2020-05-02T22:09:46.040Z,"37km SSE of Taitung City, Taiwan",earthquake,6.8,1.9,0.06,27,reviewed,us,us
+2020-02-13T19:23:33.568Z,54.0639,109.2806,10,4.5,mb,,94,4.166,0.64,us,us70007pld,2020-05-02T22:09:46.040Z,"54km NNW of Barguzin, Russia",earthquake,7.2,1.7,0.086,39,reviewed,us,us
+2020-02-13T18:17:31.013Z,-6.6215,130.6068,80.06,5.2,mb,,32,1.516,0.68,us,us70007pkg,2020-05-02T22:09:46.040Z,"166km NNW of Saumlaki, Indonesia",earthquake,7.1,4.1,0.057,101,reviewed,us,us
+2020-02-13T17:49:19.911Z,24.2326,122.1399,35.65,4.6,mb,,76,0.501,0.98,us,us70007pk5,2020-05-02T22:09:46.040Z,"50km SE of Su'ao, Taiwan",earthquake,4.6,4.7,0.069,62,reviewed,us,us
+2020-02-13T17:17:04.596Z,-7.4357,128.4961,157.79,4.5,mb,,57,2.83,1.09,us,us70007pja,2020-05-02T22:09:45.040Z,"Kepulauan Barat Daya, Indonesia",earthquake,8.5,0.8,0.101,29,reviewed,us,us
+2020-02-13T17:08:37.666Z,-29.4442,-71.7109,46.34,4.6,mb,,60,0.626,0.82,us,us70007piw,2020-05-02T22:09:45.040Z,"66km NNW of Coquimbo, Chile",earthquake,4.9,6.3,0.056,97,reviewed,us,us
+2020-02-13T15:57:16.561Z,-41.7075,174.3061,21.09,4.5,mb,,143,0.08,0.83,us,us70007ph5,2020-05-02T22:09:45.040Z,"36km SE of Blenheim, New Zealand",earthquake,2.7,4.9,0.241,8,reviewed,us,us
+2020-02-13T15:26:25.805Z,51.2422,-174.9849,24.39,5,mb,,130,0.948,1.2,us,us70007pgu,2020-12-24T15:36:29.512Z,"119km SSW of Atka, Alaska",earthquake,4.7,4.2,0.029,387,reviewed,us,us
+2020-02-13T15:17:25.408Z,-11.5505,113.2109,10,4.8,mb,,128,3.198,0.51,us,us70007pgl,2020-05-02T22:09:45.040Z,"South of Java, Indonesia",earthquake,8.9,1.9,0.085,48,reviewed,us,us
+2020-02-13T14:07:39.734Z,51.6379,177.3128,44.27,5,mb,,78,0.806,0.79,us,us70007pex,2020-12-24T14:17:53.753Z,"55km SSW of Kiska Volcano, Alaska",earthquake,6.3,5.1,0.046,151,reviewed,us,us
+2020-02-13T12:47:36.882Z,-18.8571,169.4644,32.3,4.6,mb,,121,2.937,0.61,us,us70007tn5,2020-05-02T22:10:27.040Z,"79km NNE of Isangel, Vanuatu",earthquake,7.7,7.8,0.165,11,reviewed,us,us
+2020-02-13T10:33:44.406Z,45.6161,148.959,143,7,mww,,25,4.501,0.83,us,us70007pa9,2020-05-02T22:09:44.040Z,"94km ENE of Kuril'sk, Russia",earthquake,7.3,1.9,0.027,131,reviewed,us,us
+2020-02-13T10:16:08.139Z,-5.5265,153.1309,10,5.3,mww,,29,1.639,1.44,us,us70007pa5,2020-05-02T22:09:44.040Z,"117km S of Taron, Papua New Guinea",earthquake,8.2,1.8,0.069,20,reviewed,us,us
+2020-02-13T06:53:30.479Z,51.2472,-175.0525,18.6,4.6,mb,,134,0.918,0.77,us,us70007p7s,2020-05-02T22:09:44.040Z,"120km SSW of Atka, Alaska",earthquake,5.1,4.5,0.042,170,reviewed,us,us
+2020-02-13T06:50:44.793Z,-19.202,169.0155,110.07,5.1,mb,,176,2.448,0.71,us,us70007p7m,2020-05-02T22:09:44.040Z,"46km NW of Isangel, Vanuatu",earthquake,11.5,7.3,0.114,25,reviewed,us,us
+2020-02-13T05:50:38.170Z,-20.9437,-70.8282,10,5,mww,,136,0.947,0.63,us,us70007p6w,2020-05-02T22:09:43.040Z,"107km SW of Iquique, Chile",earthquake,4.5,1.8,0.073,18,reviewed,us,us
+2020-02-13T04:31:52.029Z,-15.9795,-74.667,35,5.1,mww,,131,4.495,0.64,us,us70007p6c,2020-05-02T22:09:43.040Z,"60km S of Acari, Peru",earthquake,8.7,1.9,0.053,34,reviewed,us,us
+2020-02-13T04:26:48.840Z,-26.6742,71.0863,10,4.7,mb,,76,39.056,0.46,us,us70007tmq,2020-05-02T22:10:27.040Z,"Mid-Indian Ridge",earthquake,9,1.9,0.153,13,reviewed,us,us
+2020-02-13T04:20:56.027Z,3.4876,-83.129,10,4.5,mb,,173,4.894,0.84,us,us70007tmg,2020-05-02T22:10:26.040Z,"Off the coast of Central America",earthquake,9.8,2,0.181,9,reviewed,us,us
+2020-02-13T04:14:37.194Z,-26.6128,71.0926,10,4.9,mb,,83,26.434,0.39,us,us70007tmp,2020-05-02T22:10:27.040Z,"Mid-Indian Ridge",earthquake,7.8,1.9,0.15,14,reviewed,us,us
+2020-02-13T03:55:48.185Z,27.3407,129.2716,10,4.7,mb,,101,1.022,0.87,us,us70007p63,2020-05-02T22:09:43.040Z,"115km S of Naze, Japan",earthquake,6,1.9,0.108,26,reviewed,us,us
+2020-02-13T03:50:11.338Z,-26.188,71.8463,10,4.7,mb,,70,10.094,0.69,us,us70007tme,2020-05-02T22:10:26.040Z,"Mid-Indian Ridge",earthquake,7.3,1.9,0.126,19,reviewed,us,us
+2020-02-13T01:46:23.426Z,-36.7502,52.2506,10,4.6,mb,,66,12.577,0.57,us,us70007tmd,2020-05-02T22:10:26.040Z,"Southwest Indian Ridge",earthquake,10.6,1.9,0.141,15,reviewed,us,us
+2020-02-12T22:26:57.906Z,-57.9816,-26.1362,110.83,4.5,mb,,98,16.743,1.03,us,us70007t1u,2020-05-02T22:10:26.040Z,"119km N of Bristol Island, South Sandwich Islands",earthquake,13.9,6.6,0.191,8,reviewed,us,us
+2020-02-12T17:43:21.427Z,-14.5216,168.1681,35,4.6,mb,,92,6.922,1.04,us,us70007t1l,2020-05-02T22:10:26.040Z,"97km SE of Sola, Vanuatu",earthquake,10.1,1.9,0.141,15,reviewed,us,us
+2020-02-12T14:57:51.581Z,-17.7812,-178.5633,552.01,5.1,mb,,40,3.224,0.93,us,us70007ntu,2020-05-02T22:09:41.040Z,"265km SE of Lambasa, Fiji",earthquake,11.5,8.5,0.058,96,reviewed,us,us
+2020-02-12T14:16:04.570Z,58.8157,-154.489,117.7,4.5,ml,,,,0.84,ak,ak0201zcjff3,2020-05-02T22:09:41.040Z,"105km SSE of Old Iliamna, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2020-02-12T13:05:43.095Z,11.1371,-86.8571,30.63,4.5,mb,,167,1.169,0.5,us,us70007nsg,2020-05-02T22:09:41.040Z,"81km SSW of Masachapa, Nicaragua",earthquake,7.5,4.4,0.09,36,reviewed,us,us
+2020-02-12T10:47:10.620Z,-35.8428,-179.7259,10,4.5,mb,,232,2.333,0.54,us,us70007t1e,2020-05-02T22:10:25.040Z,"East of the North Island of New Zealand",earthquake,14.9,2,0.136,16,reviewed,us,us
+2020-02-12T10:37:18.660Z,37.3216,141.3807,77.87,5.2,mww,,58,2.66,0.9,us,us70007nqa,2020-05-02T22:09:41.040Z,"38km ESE of Namie, Japan",earthquake,7.8,4.5,0.061,26,reviewed,us,us
+2020-02-12T08:59:34.334Z,-24.5613,-177.425,102.3,5,mb,,212,4.686,0.8,us,us70007npb,2020-05-02T22:09:41.040Z,"South of the Fiji Islands",earthquake,13.7,10,0.097,35,reviewed,us,us
+2020-02-12T05:55:09.776Z,0.796,98.9405,84.13,4.5,mb,,78,1.455,0.61,us,us70007nmd,2020-05-02T22:09:40.040Z,"72km SSW of Padangsidempuan, Indonesia",earthquake,5.8,6,0.097,31,reviewed,us,us
+2020-02-12T01:28:14.185Z,-20.5884,172.5835,10,4.9,mb,,110,4.344,0.88,us,us70007nju,2020-05-02T22:09:39.040Z,"208km NNE of Ile Hunter, New Caledonia",earthquake,10.5,1.8,0.123,21,reviewed,us,us
+2020-02-12T00:43:19.129Z,52.5772,171.8286,10,4.9,mb,,104,1.391,0.77,us,us70007njd,2020-05-02T22:09:39.040Z,"96km WSW of Attu Station, Alaska",earthquake,8.6,1.9,0.026,469,reviewed,us,us
+2020-02-11T21:42:43.745Z,-20.9665,-70.7999,10,4.6,mwr,,112,0.914,1.2,us,us70007nev,2020-04-25T22:19:29.040Z,"107km SW of Iquique, Chile",earthquake,4.4,1.8,0.045,47,reviewed,us,us
+2020-02-11T21:39:38.803Z,-54.5793,158.7832,10,4.7,mb,,176,9.81,0.61,us,us70007sg1,2020-04-25T22:19:55.040Z,"15km SW of Macquarie Island, Australia",earthquake,15.8,1.9,0.183,10,reviewed,us,us
+2020-02-11T21:04:16.379Z,4.5074,83.4591,10,4.7,mb,,87,3.881,1,us,us70007ndd,2020-04-25T22:19:28.040Z,"North Indian Ocean",earthquake,8.5,1.8,0.077,51,reviewed,us,us
+2020-02-11T19:14:32.409Z,37.8694,140.2501,98.69,4.5,mb,,116,2.076,1.08,us,us70007nac,2020-04-25T22:19:27.040Z,"12km ESE of Yonezawa, Japan",earthquake,6.9,6.9,0.051,122,reviewed,us,us
+2020-02-11T18:18:07.667Z,-20.4928,-177.6086,513.27,4.5,mb,,99,4.929,0.57,us,us70007sfw,2020-04-25T22:19:54.040Z,"115km E of Ndoi Island, Fiji",earthquake,11.5,9.8,0.124,20,reviewed,us,us
+2020-02-11T18:06:27.056Z,44.0526,147.1346,65.03,4.5,mb,,137,3.273,1.15,us,us70007sg5,2020-04-25T22:19:55.040Z,"43km NE of Shikotan, Russia",earthquake,4.4,7.4,0.088,41,reviewed,us,us
+2020-02-11T18:03:16.769Z,-23.3805,-179.5892,543.64,4.6,mb,,118,6.026,0.77,us,us70007n8h,2020-04-25T22:19:26.040Z,"South of the Fiji Islands",earthquake,13.9,5.8,0.122,22,reviewed,us,us
+2020-02-11T18:02:21.507Z,44.7688,97.0897,10,4.5,mb,,53,7.136,1.05,us,us70007n8a,2020-04-25T22:19:25.040Z,"66km SW of Sangiyn Dalay, Mongolia",earthquake,6.4,1.9,0.079,47,reviewed,us,us
+2020-02-11T17:52:42.268Z,17.6453,94.317,10,4.6,mb,,57,4.03,0.76,us,us70007n83,2020-04-25T22:19:25.040Z,"105km NNW of Pathein, Burma",earthquake,4.6,1.8,0.088,45,reviewed,us,us
+2020-02-11T16:21:59.222Z,-10.5643,165.9607,70.59,4.7,mb,,117,11.453,0.55,us,us70007sfr,2020-04-25T22:19:54.040Z,"21km NE of Lata, Solomon Islands",earthquake,12.9,5.3,0.12,21,reviewed,us,us
+2020-02-11T16:11:45.309Z,-23.8965,-179.8939,517.22,4.6,mb,,104,5.609,0.7,us,us70007sfp,2020-04-25T22:19:53.040Z,"South of the Fiji Islands",earthquake,9.1,6.9,0.081,46,reviewed,us,us
+2020-02-11T16:06:05.914Z,-23.4038,-174.2914,10,4.6,mb,,102,5.925,0.61,us,us70007sfq,2020-04-25T22:19:54.040Z,"239km SSE of `Ohonua, Tonga",earthquake,9.3,1.9,0.173,15,reviewed,us,us
+2020-02-11T15:15:46.737Z,-5.9664,150.2292,49.21,5.3,mww,,90,2.612,0.73,us,us70007n4a,2020-04-25T22:19:24.040Z,"47km SSE of Kimbe, Papua New Guinea",earthquake,7.8,5,0.075,17,reviewed,us,us
+2020-02-11T15:02:16.914Z,-32.8292,-178.5449,10,4.8,mb,,136,3.611,1.02,us,us70007n3m,2020-04-25T22:19:23.040Z,"158km SSE of L'Esperance Rock, New Zealand",earthquake,11.4,1.9,0.161,17,reviewed,us,us
+2020-02-11T13:50:02.629Z,-24.7868,-70.8845,36.16,5.3,mww,,108,0.465,0.45,us,us70007n2x,2020-04-25T22:19:23.040Z,"79km NNW of Taltal, Chile",earthquake,4.1,5.9,0.066,22,reviewed,us,us
+2020-02-11T13:07:28.630Z,-52.3449,17.0687,10,5,mb,,45,20.138,0.66,us,us70007n2t,2020-04-25T22:19:23.040Z,"Southwest of Africa",earthquake,12.1,1.8,0.087,42,reviewed,us,us
+2020-02-11T13:02:02.832Z,-56.3787,146.8801,10,4.6,mb,,183,16.002,0.55,us,us70007sfj,2020-04-25T22:19:53.040Z,"West of Macquarie Island",earthquake,18.9,2,0.151,14,reviewed,us,us
+2020-02-11T11:07:03.641Z,-25.1674,179.9422,493.93,5.4,mww,,54,4.482,1.07,us,us70007n26,2020-04-25T22:19:22.040Z,"South of the Fiji Islands",earthquake,10.2,6.1,0.089,12,reviewed,us,us
+2020-02-11T10:37:02.338Z,15.78,147.8801,10,5.4,mww,,36,2.085,0.54,us,us70007n1x,2020-12-22T10:47:07.633Z,"236km ENE of Saipan, Northern Mariana Islands",earthquake,9,1.8,0.065,23,reviewed,us,us
+2020-02-11T10:21:46.079Z,-22.5051,-174.7308,10,5.2,mww,,76,5.641,1.24,us,us70007n1t,2020-04-25T22:19:21.040Z,"131km S of `Ohonua, Tonga",earthquake,10.2,1.8,0.098,10,reviewed,us,us
+2020-02-11T08:12:54.577Z,-54.3648,5.6176,10,4.6,mb,,57,17.756,0.81,us,us70007sfd,2020-04-25T22:19:52.040Z,"146km E of Bouvet Island, Bouvet Island",earthquake,13.4,1.9,0.133,20,reviewed,us,us
+2020-02-11T07:39:54.199Z,-60.269,-25.5719,10,4.9,mb,,87,8.416,1.08,us,us70007n0w,2020-04-25T22:19:20.040Z,"147km SSE of Bristol Island, South Sandwich Islands",earthquake,13.1,1.8,0.077,53,reviewed,us,us
+2020-02-11T01:27:48.615Z,2.0407,126.5166,35,4.5,mb,,112,1.52,0.96,us,us70007sf7,2020-04-25T22:19:52.040Z,"162km ENE of Bitung, Indonesia",earthquake,8.8,2,0.164,11,reviewed,us,us
+2020-02-10T22:46:50.831Z,35.1684,27.9103,10,4.9,mww,,26,0.719,1.17,us,us70007mw0,2020-04-25T22:19:15.040Z,"73km ESE of Karpathos, Greece",earthquake,4.6,1.3,0.061,26,reviewed,us,us
+2020-02-10T20:37:52.187Z,-60.137,-26.2228,10,4.5,mb,,96,8.085,0.73,us,us70007rxm,2020-04-25T22:19:50.040Z,"124km S of Bristol Island, South Sandwich Islands",earthquake,14.1,1.9,0.121,20,reviewed,us,us
+2020-02-10T20:01:43.063Z,-60.1747,-25.9076,10,4.5,mb,,120,8.228,0.58,us,us70007rxl,2020-04-25T22:19:50.040Z,"131km SSE of Bristol Island, South Sandwich Islands",earthquake,11.7,1.9,0.145,14,reviewed,us,us
+2020-02-10T19:52:01.465Z,-59.8258,-25.8756,10,5.1,mb,,80,8.014,0.86,us,us70007mr1,2020-04-25T22:19:13.040Z,"95km SSE of Bristol Island, South Sandwich Islands",earthquake,10.8,1.9,0.067,72,reviewed,us,us
+2020-02-10T18:20:09.252Z,13.1329,93.2938,39.6,4.9,mb,,58,1.563,1.08,us,us70007mpw,2020-04-25T22:19:13.040Z,"170km NNE of Bamboo Flat, India",earthquake,7.2,5.2,0.062,83,reviewed,us,us
+2020-02-10T17:30:36.567Z,-20.3533,-177.673,536.64,4.5,mb,,117,4.803,0.46,us,us70007rxj,2020-04-25T22:19:50.040Z,"112km ENE of Ndoi Island, Fiji",earthquake,14.6,7.2,0.11,24,reviewed,us,us
+2020-02-10T17:13:48.721Z,-26.4171,27.4046,5,4.5,mb,,146,2.146,0.59,us,us70007mn1,2020-04-25T22:19:12.040Z,"6km S of Carletonville, South Africa",earthquake,9.3,1.8,0.27,4,reviewed,us,us
+2020-02-10T16:54:27.452Z,6.0519,126.2387,145.79,4.5,mb,,75,1.204,0.88,us,us70007rxi,2020-04-25T22:19:49.040Z,"34km S of Pondaguitan, Philippines",earthquake,9.1,5.7,0.099,30,reviewed,us,us
+2020-02-10T16:49:06.292Z,-17.2862,-177.5302,10,4.6,mb,,77,7.443,0.35,us,us70007rxh,2020-04-25T22:19:49.040Z,"Fiji region",earthquake,7.5,1.9,0.193,13,reviewed,us,us
+2020-02-10T14:52:17.341Z,33.3608,141.3023,51.5,4.6,mb,,101,1.271,0.7,us,us70007mjv,2020-04-25T22:19:11.040Z,"143km ENE of Hachijo-jima, Japan",earthquake,6.8,6.2,0.092,35,reviewed,us,us
+2020-02-10T14:14:15.740Z,-24.9097,179.3596,517.91,4.6,mb,,90,4.948,0.66,us,us70007rxd,2020-04-25T22:19:49.040Z,"South of the Fiji Islands",earthquake,13.8,9.4,0.116,24,reviewed,us,us
+2020-02-10T12:12:36.624Z,1.4307,98.9564,97.75,4.7,mb,,66,1.255,0.88,us,us70007rxa,2020-04-25T22:19:48.040Z,"35km WNW of Padangsidempuan, Indonesia",earthquake,6.2,5.6,0.086,41,reviewed,us,us
+2020-02-10T10:11:07.709Z,36.4145,144.123,31.84,4.8,mb,,73,4.736,0.89,us,us70007mhd,2020-04-25T22:19:09.040Z,"297km ESE of Iwaki, Japan",earthquake,6.2,4,0.042,178,reviewed,us,us
+2020-02-10T05:22:56.635Z,-6.768,105.2929,52.32,4.9,mb,,174,2.438,0.91,us,us70007met,2020-04-25T22:19:07.040Z,"37km W of Pasirnangka, Indonesia",earthquake,8.3,6.5,0.074,57,reviewed,us,us
+2020-02-10T01:02:38.527Z,14.4112,146.8744,10,4.6,mb,,76,1.334,0.89,us,us70007mcr,2020-04-25T22:19:04.040Z,"148km ESE of JP Tinian Town pre-WW2, Northern Mariana Islands",earthquake,9.3,1.9,0.075,54,reviewed,us,us
+2020-02-10T00:17:28.746Z,-21.6286,-178.7414,546.14,4.6,mb,,123,4.903,0.72,us,us70007mbc,2020-04-25T22:19:04.040Z,"108km S of Ndoi Island, Fiji",earthquake,15.3,8.7,0.103,28,reviewed,us,us
+2020-02-09T21:24:03.898Z,-1.7306,138.8521,31.57,4.9,mb,,96,11.242,0.56,us,us70007m8b,2020-04-25T22:19:02.040Z,"216km WNW of Abepura, Indonesia",earthquake,11,4.6,0.055,104,reviewed,us,us
+2020-02-09T20:52:17.479Z,-15.4757,-173.9973,49.07,4.6,mb,,148,2.649,0.83,us,us70007q80,2020-04-25T22:19:47.040Z,"58km NNW of Hihifo, Tonga",earthquake,12.1,18.7,0.157,12,reviewed,us,us
+2020-02-09T20:33:28.059Z,-2.1402,-79.3831,109.25,4.6,mb,,143,2.539,1.03,us,us70007m82,2020-04-25T22:19:02.040Z,"7km NNE of Coronel Marcelino Mariduena, Ecuador",earthquake,10.9,6.9,0.077,51,reviewed,us,us
+2020-02-09T19:38:52.183Z,-56.1178,-27.4902,99.84,4.7,mb,,131,5.471,0.7,us,us70007mcv,2020-04-25T22:19:05.040Z,"67km NNW of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,12.2,5.9,0.108,26,reviewed,us,us
+2020-02-09T19:10:46.707Z,20.5392,93.8715,51,4.6,mb,,63,2.107,1.05,us,us70007m6d,2020-04-25T22:19:00.040Z,"105km W of Yenangyaung, Burma",earthquake,6.8,6.1,0.088,39,reviewed,us,us
+2020-02-09T16:10:15.911Z,4.9199,126.8193,88.11,4.6,mb,,77,2.466,0.73,us,us70007m3w,2020-04-25T22:19:00.040Z,"159km ESE of Sarangani, Philippines",earthquake,8.2,7.6,0.089,37,reviewed,us,us
+2020-02-09T14:00:05.294Z,-30.2632,-178.2309,5.51,4.5,mb,,142,1.048,0.24,us,us70007q7x,2020-04-25T22:19:46.040Z,"114km SSW of Raoul Island, New Zealand",earthquake,11.7,2.5,0.221,10,reviewed,us,us
+2020-02-09T13:32:52.952Z,81.1785,-3.9436,10,5,mb,,31,3.56,0.56,us,us70007m2a,2020-04-25T22:18:59.040Z,"237km E of Nord, Greenland",earthquake,8.4,1.8,0.031,327,reviewed,us,us
+2020-02-09T13:20:15.702Z,-20.4325,-178.2955,566.85,4.5,mb,,98,4.366,0.51,us,us70007q7s,2020-04-25T22:19:46.040Z,"48km ENE of Ndoi Island, Fiji",earthquake,13,3.4,0.078,49,reviewed,us,us
+2020-02-09T10:27:35.039Z,-16.5081,-179.8535,510.4,4.5,mb,,66,2.349,0.71,us,us70007m0p,2020-04-25T22:18:58.040Z,"82km E of Lambasa, Fiji",earthquake,11.8,2.8,0.065,70,reviewed,us,us
+2020-02-09T09:42:24.634Z,-4.584,149.5164,551.51,5.5,mww,,29,2.668,0.82,us,us70007m02,2020-04-25T22:18:57.040Z,"127km NNW of Kimbe, Papua New Guinea",earthquake,10.2,7.4,0.117,7,reviewed,us,us
+2020-02-09T08:29:04.311Z,13.1313,-89.1022,66.6,4.8,mww,,112,1.284,0.7,us,us70007lz9,2020-09-19T22:49:35.210Z,"41km S of El Rosario, El Salvador",earthquake,4.8,6.5,0.098,10,reviewed,us,us
+2020-02-09T07:05:40.709Z,-52.814,27.5391,10,5.1,mb,,61,16.957,0.46,us,us70007lyh,2020-04-25T22:18:56.040Z,"South of Africa",earthquake,12.2,1.9,0.076,56,reviewed,us,us
+2020-02-09T06:04:29.967Z,-5.4925,152.1522,34,6.1,mww,,46,1.292,0.99,us,us70007lwy,2020-04-25T22:18:55.040Z,"126km S of Kokopo, Papua New Guinea",earthquake,6.7,1.8,0.056,31,reviewed,us,us
+2020-02-09T01:24:56.875Z,-6.4863,130.3998,103.39,4.5,mb,,57,1.733,1.14,us,us70007lts,2020-04-25T22:18:52.040Z,"190km NNW of Saumlaki, Indonesia",earthquake,9.1,7.8,0.108,25,reviewed,us,us
+2020-02-08T21:58:38.568Z,34.0063,138.1414,14.11,4.6,mb,,71,0.67,0.54,us,us70007lrw,2020-04-25T22:18:50.040Z,"66km S of Oyama, Japan",earthquake,2.4,4.4,0.12,21,reviewed,us,us
+2020-02-08T21:05:22.568Z,-17.1373,-176.8732,10,4.8,mb,,134,4.881,0.76,us,us70007q6f,2020-04-25T22:19:44.040Z,"Fiji region",earthquake,14.4,1.9,0.125,20,reviewed,us,us
+2020-02-08T20:50:58.102Z,-31.9617,-178.7258,50.16,4.8,mww,,47,2.793,0.99,us,us70007lq8,2020-04-25T22:18:50.040Z,"60km SSE of L'Esperance Rock, New Zealand",earthquake,9.6,5,0.098,10,reviewed,us,us
+2020-02-08T18:26:00.235Z,-60.6386,-25.4234,10,5,mb,,51,8.717,0.66,us,us70007q6a,2020-04-25T22:19:44.040Z,"189km SSE of Bristol Island, South Sandwich Islands",earthquake,11.4,1.8,0.075,63,reviewed,us,us
+2020-02-08T16:16:56.858Z,-59.795,-25.7191,10,4.9,mb,,68,15.024,0.99,us,us70007ljt,2020-04-25T22:18:46.040Z,"96km SSE of Bristol Island, South Sandwich Islands",earthquake,13,1.9,0.091,38,reviewed,us,us
+2020-02-08T16:06:04.254Z,-60.1221,-24.8734,10,4.8,mb,,112,14.533,1.23,us,us70007ljr,2020-04-25T22:18:46.040Z,"152km SE of Bristol Island, South Sandwich Islands",earthquake,13.8,1.6,0.098,32,reviewed,us,us
+2020-02-08T15:34:55.768Z,43.2676,-126.9015,10,4.6,mb,,179,2.125,1.02,us,us70007lj1,2020-04-25T22:18:46.040Z,"203km W of Bandon, Oregon",earthquake,7.9,1.9,0.054,103,reviewed,us,us
+2020-02-08T14:32:58.625Z,-59.9212,-25.5526,16,6,mww,,85,8.201,0.95,us,us70007lik,2020-04-25T22:18:45.040Z,"113km SSE of Bristol Island, South Sandwich Islands",earthquake,10,1.5,0.046,46,reviewed,us,us
+2020-02-08T12:48:43.532Z,-6.0138,147.4422,53.33,5.1,mww,,27,3.38,0.71,us,us70007li3,2020-04-25T22:18:44.040Z,"80km NW of Finschhafen, Papua New Guinea",earthquake,7.4,4.7,0.086,13,reviewed,us,us
+2020-02-08T12:47:01.887Z,26.3386,90.7847,10,5,mb,,73,1.233,0.82,us,us70007li1,2020-04-25T22:18:43.040Z,"11km E of Abhayapuri, India",earthquake,7.7,1.8,0.057,99,reviewed,us,us
+2020-02-08T11:20:35.363Z,17.0924,-59.297,10,4.6,mb,,100,1.864,0.77,us,us70007lhu,2020-04-25T22:18:43.040Z,"208km ENE of Grande Anse, Guadeloupe",earthquake,4.5,1.9,0.172,11,reviewed,us,us
+2020-02-08T09:41:32.087Z,-17.9586,-174.4339,76.6,4.7,mb,,129,4.418,0.44,us,us70007q5p,2020-04-25T22:19:42.040Z,"90km NNW of Neiafu, Tonga",earthquake,6,8.9,0.13,18,reviewed,us,us
+2020-02-08T06:56:42.246Z,-2.9981,129.9482,10,4.5,mb,,100,2.299,0.57,us,us70007q5w,2020-04-25T22:19:43.040Z,"120km ENE of Amahai, Indonesia",earthquake,6.1,1.8,0.15,13,reviewed,us,us
+2020-02-08T06:51:40.401Z,-3.0044,129.9147,10,4.9,mb,,59,2.332,0.66,us,us70007lf7,2020-04-25T22:18:38.040Z,"116km ENE of Amahai, Indonesia",earthquake,7.1,1.7,0.099,32,reviewed,us,us
+2020-02-08T06:36:44.095Z,-2.8766,129.9354,10,5.6,mww,,61,2.311,0.69,us,us70007lf3,2020-04-25T22:18:38.040Z,"123km ENE of Amahai, Indonesia",earthquake,6.1,1.2,0.062,25,reviewed,us,us
+2020-02-08T06:32:42.951Z,-23.2915,-66.8039,208.13,4.5,mb,,61,1.31,1.07,us,us70007lf4,2020-04-25T22:18:38.040Z,"113km NNW of San Antonio de los Cobres, Argentina",earthquake,10.7,10.4,0.171,10,reviewed,us,us
+2020-02-08T06:17:57.956Z,-20.8279,-68.7137,108.34,5.2,mww,,40,0.754,0.84,us,us70007leh,2020-04-25T22:18:37.040Z,"163km ESE of Iquique, Chile",earthquake,4.8,4.3,0.078,16,reviewed,us,us
+2020-02-08T02:53:22.802Z,-26.0162,-177.4876,192.26,4.6,mb,,126,3.24,0.81,us,us70007q5c,2020-04-25T22:19:42.040Z,"South of the Fiji Islands",earthquake,10.9,5.6,0.119,21,reviewed,us,us
+2020-02-08T01:25:24.273Z,-21.6492,-179.2128,585.41,4.6,mb,,68,4.66,1.24,us,us70007lcg,2020-04-25T22:18:35.040Z,"122km SSW of Ndoi Island, Fiji",earthquake,11.1,5.5,0.038,204,reviewed,us,us
+2020-02-08T01:01:46.831Z,30.0278,79.9831,18.78,4.7,mb,,97,6.758,0.66,us,us70007lc7,2020-04-25T22:18:34.040Z,"28km NE of Bageshwar, India",earthquake,8.9,4.4,0.063,76,reviewed,us,us
+2020-02-07T21:37:11.945Z,-55.1558,158.9186,10,4.8,mb,,107,10.253,0.47,us,us70007q4l,2020-04-25T22:19:40.040Z,"74km S of Macquarie Island, Australia",earthquake,12.3,1.4,0.135,17,reviewed,us,us
+2020-02-07T18:52:50.743Z,-59.3919,-60.2116,10,5.5,mww,,78,2.954,0.88,us,us70007l2h,2020-04-25T22:18:32.040Z,"Drake Passage",earthquake,7.1,1.7,0.073,18,reviewed,us,us
+2020-02-07T17:48:37.970Z,-5.834,146.4165,58.66,4.9,mb,,48,3.623,0.81,us,us70007q4h,2020-04-25T22:19:39.040Z,"79km NE of Kainantu, Papua New Guinea",earthquake,7.1,6.6,0.081,52,reviewed,us,us
+2020-02-07T13:02:59.300Z,5.4464,126.3644,10,4.6,mb,,114,1.791,0.84,us,us70007ku6,2020-04-25T22:18:28.040Z,"95km ESE of Caburan, Philippines",earthquake,7.3,1.7,0.087,39,reviewed,us,us
+2020-02-07T10:38:02.331Z,-21.1561,-178.5092,549.16,4.5,mb,,115,4.694,0.72,us,us70007ksn,2020-04-25T22:18:27.040Z,"59km SSE of Ndoi Island, Fiji",earthquake,12.6,5.9,0.064,72,reviewed,us,us
+2020-02-07T09:50:41.657Z,-13.2988,170.4178,623.54,4.6,mb,,61,8.449,1.07,us,us70007ks3,2020-04-25T22:18:26.040Z,"Vanuatu region",earthquake,12.8,8,0.037,218,reviewed,us,us
+2020-02-07T09:49:11.286Z,-5.4569,151.2108,35,4.6,mb,,166,1.575,0.51,us,us70007q49,2020-04-25T22:19:39.040Z,"118km E of Kimbe, Papua New Guinea",earthquake,9.2,2,0.157,12,reviewed,us,us
+2020-02-07T08:20:15.321Z,-50.1426,161.8206,10,4.7,mb,,127,5.138,0.81,us,us70007kqx,2020-04-25T22:18:25.040Z,"North of Macquarie Island",earthquake,13.3,2,0.184,9,reviewed,us,us
+2020-02-07T04:48:33.746Z,17.7668,40.1795,10,4.6,mb,,119,7.591,1.07,us,us70007kp0,2020-04-25T22:18:23.040Z,"177km SSW of Al Qunfidhah, Saudi Arabia",earthquake,10.8,1.9,0.088,38,reviewed,us,us
+2020-02-07T03:50:39.165Z,-2.6378,138.333,30.35,5,mww,,76,2.372,0.82,us,us70007kn2,2020-04-25T22:18:21.040Z,"250km W of Abepura, Indonesia",earthquake,7.8,3.1,0.093,11,reviewed,us,us
+2020-02-07T03:11:46.579Z,35.0292,26.5522,10,4.7,mb,,57,0.717,1.27,us,us70007kmm,2020-04-25T22:18:20.040Z,"33km SE of Palaikastron, Greece",earthquake,4.6,1.8,0.046,145,reviewed,us,us
+2020-02-07T02:03:31.293Z,5.4425,126.5413,10,4.7,mb,,114,1.878,1.22,us,us70007klk,2020-04-25T22:18:19.040Z,"109km SSE of Pondaguitan, Philippines",earthquake,7.9,1.9,0.129,18,reviewed,us,us
+2020-02-07T01:43:59.774Z,-24.5726,-177.1885,123.64,4.6,mb,,133,4.7,1.23,us,us70007q3y,2020-04-25T22:19:38.040Z,"South of the Fiji Islands",earthquake,9.6,7.6,0.158,12,reviewed,us,us
+2020-02-07T00:12:40.716Z,48.7584,125.2579,10,4.5,mb,,96,3.667,0.45,us,us70007kkc,2020-04-25T22:18:17.040Z,"43km NE of Nehe, China",earthquake,9.5,1.9,0.047,134,reviewed,us,us
+2020-02-06T21:10:53.862Z,16.707,-60.9801,28.75,4.6,mb,,114,0.4,0.81,us,us70007k89,2020-04-25T22:18:15.040Z,"45km NNE of Grande Anse, Guadeloupe",earthquake,4.7,6.1,0.157,12,reviewed,us,us
+2020-02-06T21:06:31.559Z,-9.6665,117.6614,35,4.9,mb,,53,3.664,1.36,us,us70007k7i,2020-04-25T22:18:15.040Z,"96km S of Pisangkemeng, Indonesia",earthquake,7.8,1.7,0.063,79,reviewed,us,us
+2020-02-06T20:08:37.585Z,-55.9133,-27.6686,58.76,4.6,mb,,124,5.321,0.55,us,us70007q1p,2020-04-25T22:19:36.040Z,"92km NNW of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,14.1,7.4,0.157,12,reviewed,us,us
+2020-02-06T18:27:16.383Z,5.5142,126.4618,10,4.7,mb,,114,1.777,1.15,us,us70007k53,2020-04-25T22:18:14.040Z,"98km SSE of Pondaguitan, Philippines",earthquake,7.4,1.8,0.073,57,reviewed,us,us
+2020-02-06T16:32:51.992Z,1.4169,128.1731,25.09,4.5,mb,,94,1.029,0.79,us,us70007k13,2020-04-25T22:18:13.040Z,"38km SSE of Tobelo, Indonesia",earthquake,6.5,5.9,0.108,28,reviewed,us,us
+2020-02-06T14:20:38.337Z,5.3365,126.2525,10,4.7,mb,,138,1.847,1.31,us,us70007jz3,2020-04-25T22:18:11.040Z,"87km E of Sarangani, Philippines",earthquake,13.8,1.9,0.121,21,reviewed,us,us
+2020-02-06T13:45:37.801Z,5.4894,126.559,10,5.1,mb,,107,1.847,1.21,us,us70007q1j,2020-04-25T22:19:35.040Z,"105km SSE of Pondaguitan, Philippines",earthquake,3.5,1.8,0.074,59,reviewed,us,us
+2020-02-06T13:40:05.791Z,5.4543,126.5692,19,6,mww,,44,1.882,1.2,us,us70007jwn,2020-05-09T19:46:49.343Z,"109km SSE of Pondaguitan, Philippines",earthquake,5.2,1.7,0.046,45,reviewed,us,us
+2020-02-06T12:00:54.645Z,-17.9104,-179.1057,601.43,4.6,mb,,81,2.711,0.84,us,us70007jvs,2020-04-25T22:18:09.040Z,"230km SE of Lambasa, Fiji",earthquake,13,7.3,0.078,48,reviewed,us,us
+2020-02-06T11:19:56.405Z,36.2822,141.8024,10,5.3,mww,,46,1.552,0.92,us,us70007juj,2020-05-01T23:27:59.221Z,"106km NE of Hasaki, Japan",earthquake,6,1.7,0.057,30,reviewed,us,us
+2020-02-06T10:20:29.901Z,-32.1743,-178.9588,10,5.1,mb,,57,3.051,1.27,us,us70007jtr,2020-04-25T22:18:06.040Z,"82km S of L'Esperance Rock, New Zealand",earthquake,8.5,1.7,0.062,84,reviewed,us,us
+2020-02-06T09:24:16.857Z,39.2544,21.497,10,4.7,mwr,,24,1.393,0.9,us,us70007jsv,2020-04-25T22:18:05.040Z,"20km W of Neochorion, Greece",earthquake,2.9,1.7,0.068,21,reviewed,us,us
+2020-02-06T07:22:26.063Z,-7.2417,122.455,530.32,4.5,mb,,66,1.401,0.84,us,us70007q1f,2020-04-25T22:19:35.040Z,"136km N of Nebe, Indonesia",earthquake,7.9,12.2,0.156,12,reviewed,us,us
+2020-02-06T07:10:54.370Z,-2.8517,139.1381,35,4.9,mb,,55,6.88,0.85,us,us70007jq8,2020-04-25T22:18:04.040Z,"162km W of Abepura, Indonesia",earthquake,9.2,2,0.074,57,reviewed,us,us
+2020-02-06T04:53:51.535Z,32.7294,34.6646,10,4.5,mb,,105,1.615,0.52,us,us70007jnl,2020-04-25T22:18:02.040Z,"25km WNW of `Atlit, Israel",earthquake,6.6,1.9,0.157,12,reviewed,us,us
+2020-02-06T02:24:16.770Z,28.4281,142.64,10,4.6,mb,,125,1.387,0.55,us,us70007q1a,2020-04-25T22:19:34.040Z,"154km NNE of Chichi-shima, Japan",earthquake,7.5,1.4,0.103,28,reviewed,us,us
+2020-02-06T01:30:34.034Z,-1.0125,-15.9004,10,4.6,mb,,64,13.407,0.69,us,us70007q17,2020-04-25T22:19:33.040Z,"North of Ascension Island",earthquake,11.9,1.9,0.12,21,reviewed,us,us
+2020-02-06T01:29:08.013Z,-11.4448,166.4617,35,4.6,mb,,202,10.567,0.76,us,us70007q15,2020-04-25T22:19:33.040Z,"105km SE of Lata, Solomon Islands",earthquake,14.8,2,0.173,10,reviewed,us,us
+2020-02-05T23:17:58.554Z,18.6164,145.6374,189.6,4.5,mb,,106,3.359,0.92,us,us70007jjq,2020-04-25T22:18:01.040Z,"16km S of Agrihan, Northern Mariana Islands",earthquake,10.5,7.6,0.069,61,reviewed,us,us
+2020-02-05T20:47:08.396Z,7.3359,73.6458,10,4.5,mb,,60,0.724,0.82,us,us70007jey,2020-04-25T22:17:59.040Z,"78km NE of Dhidhdhoo, Maldives",earthquake,5,1.6,0.097,31,reviewed,us,us
+2020-02-05T19:23:01.526Z,20.0808,121.4611,35,4.5,mb,,112,2.746,0.8,us,us70007jdt,2020-04-25T22:17:59.040Z,"51km WSW of Sabtang, Philippines",earthquake,4.1,2,0.073,54,reviewed,us,us
+2020-02-05T18:34:38.219Z,-6.2187,113.1164,592.59,4.5,mb,,63,2.461,0.82,us,us70007pfr,2020-04-25T22:19:33.040Z,"98km NE of Kemeduran, Indonesia",earthquake,12.1,7.8,0.106,26,reviewed,us,us
+2020-02-05T18:12:37.734Z,-6.0817,113.0778,592.42,6.2,mww,,31,5.479,1.04,us,us70007j6z,2020-04-25T22:17:58.040Z,"108km NNE of Krajan Pangkah Kulon, Indonesia",earthquake,8.3,4.2,0.041,58,reviewed,us,us
+2020-02-05T13:54:20.532Z,10.9808,-86.5492,35.28,4.7,mb,,155,1.16,0.61,us,us70007j19,2020-04-25T22:17:55.040Z,"80km WSW of San Juan del Sur, Nicaragua",earthquake,7,10.2,0.087,40,reviewed,us,us
+2020-02-05T12:36:44.002Z,10.4997,-86.8703,10,4.9,mb,,136,1.351,0.77,us,us70007j0k,2020-04-25T22:17:54.040Z,"133km W of Sardinal, Costa Rica",earthquake,3.5,1.9,0.026,445,reviewed,us,us
+2020-02-05T12:17:05.396Z,-54.597,158.7366,10,5.8,mww,,53,9.84,0.76,us,us70007j07,2020-04-25T22:17:53.040Z,"18km SW of Macquarie Island, Australia",earthquake,10.2,1.8,0.052,36,reviewed,us,us
+2020-02-05T11:24:23.359Z,-4.975,152.8843,21.45,4.5,mb,,153,1.059,0.47,us,us70007izm,2020-04-25T22:17:53.040Z,"58km SSW of Taron, Papua New Guinea",earthquake,6.1,6.1,0.08,46,reviewed,us,us
+2020-02-05T10:43:06.434Z,19.8937,-109.4208,10,5.2,mww,,181,3.804,0.9,us,us70007iz7,2020-04-25T22:17:52.040Z,"205km NE of Socorro Island, Mexico",earthquake,9.7,1.9,0.066,22,reviewed,us,us
+2020-02-05T07:57:20.260Z,-4.4768,-77.4566,10,5.1,mww,,92,2.687,1.01,us,us70007ixw,2020-04-25T22:17:51.040Z,"92km WNW of Barranca, Peru",earthquake,6.4,1.8,0.055,32,reviewed,us,us
+2020-02-05T04:49:26.969Z,-32.674,-177.9064,10,4.6,mb,,154,3.418,0.85,us,us70007pfe,2020-04-25T22:19:31.040Z,"166km SE of L'Esperance Rock, New Zealand",earthquake,9.3,1.8,0.133,17,reviewed,us,us
+2020-02-05T03:13:25.454Z,-25.2755,-176.5491,35,5.1,mb,,77,4.14,0.88,us,us70007pfc,2020-04-25T22:19:30.040Z,"South of the Fiji Islands",earthquake,6.7,1.9,0.127,20,reviewed,us,us
+2020-02-05T02:50:52.047Z,29.3724,142.4885,10,4.5,mb,,134,2.284,0.56,us,us70007iut,2020-04-25T22:17:49.040Z,"255km N of Chichi-shima, Japan",earthquake,10,1.9,0.109,25,reviewed,us,us
+2020-02-05T01:51:45.431Z,-5.8126,-80.7451,42.07,5,mb,,52,2.68,0.77,us,us70007iu1,2020-04-25T22:17:47.040Z,"29km SSE of Sechura, Peru",earthquake,6.6,3.2,0.05,126,reviewed,us,us
+2020-02-05T01:00:49.970Z,43.3158,146.1061,61.28,4.7,mb,,135,2.67,0.58,us,us70007itc,2020-04-25T22:17:46.040Z,"43km E of Nemuro, Japan",earthquake,9,5.7,0.072,58,reviewed,us,us
+2020-02-04T22:22:42.333Z,-5.6659,133.5171,18.79,4.5,mb,,115,3.007,0.89,us,us70007pew,2020-04-18T22:10:36.040Z,"78km W of Dobo, Indonesia",earthquake,5.9,6.1,0.131,17,reviewed,us,us
+2020-02-04T22:17:45.469Z,52.0218,178.3938,117.61,4.9,mww,,53,0.091,0.92,us,us70007imy,2020-04-18T22:10:26.040Z,"11km NW of Little Sitkin Island, Alaska",earthquake,6.7,3.7,0.043,51,reviewed,us,us
+2020-02-04T20:35:40.334Z,-22.886,-68.228,129.73,4.6,mb,,51,0.079,1.17,us,us70007iiu,2020-04-18T22:10:26.040Z,"3km NNW of San Pedro de Atacama, Chile",earthquake,8.7,5.6,0.136,17,reviewed,us,us
+2020-02-04T20:32:55.267Z,36.5831,71.2477,128.66,4.9,mb,,57,0.763,0.88,us,us70007iiq,2020-04-18T22:10:26.040Z,"27km WSW of Ashkasham, Afghanistan",earthquake,6,5.7,0.04,207,reviewed,us,us
+2020-02-04T17:55:23.965Z,39.0383,27.8816,4.56,4.9,mb,,22,0.6,0.8,us,us60007pkf,2020-04-18T22:10:25.040Z,"13km NNE of Akhisar, Turkey",earthquake,4.8,3.7,0.047,141,reviewed,us,us
+2020-02-04T16:47:10.864Z,38.9976,27.9416,10,4.5,mb,,32,0.698,1.04,us,us60007phg,2020-04-18T22:10:25.040Z,"12km NE of Akhisar, Turkey",earthquake,4.7,1.9,0.105,27,reviewed,us,us
+2020-02-04T15:47:12.160Z,-9.0299,157.9045,10,5.1,mb,,47,2.057,0.93,us,us60007pgq,2020-04-18T22:10:25.040Z,"155km SE of Gizo, Solomon Islands",earthquake,4.8,1.9,0.072,63,reviewed,us,us
+2020-02-04T15:46:34.050Z,-9.0223,158.0414,10,4.6,mb,,84,1.926,0.28,us,us70007pei,2020-04-18T22:10:36.040Z,"153km SW of Dadali, Solomon Islands",earthquake,10.8,1.9,0.151,21,reviewed,us,us
+2020-02-04T15:00:09.709Z,-17.8285,-174.5635,92.04,4.9,mb,,74,4.572,0.92,us,us60007pfh,2020-04-18T22:10:24.040Z,"109km NW of Neiafu, Tonga",earthquake,9.9,4.2,0.122,26,reviewed,us,us
+2020-02-04T14:49:38.591Z,-2.9566,130.3296,27.97,4.8,mb,,57,1.917,0.77,us,us60007pek,2020-04-18T22:10:24.040Z,"162km ENE of Amahai, Indonesia",earthquake,4.4,4.8,0.083,45,reviewed,us,us
+2020-02-04T14:47:12.238Z,-12.1254,166.6161,87.14,4.7,mb,,181,9.892,0.49,us,us70007peg,2020-04-18T22:10:36.040Z,"177km SSE of Lata, Solomon Islands",earthquake,16,7.8,0.276,7,reviewed,us,us
+2020-02-04T14:45:55.720Z,17.8388,-66.8751,7,5,ml,17,239,0.1364,0.19,pr,pr2020035028,2020-06-13T06:59:44.650Z,"20km SSE of Guanica, Puerto Rico",earthquake,1.05,1.24,0,0,reviewed,pr,pr
+2020-02-04T13:19:23.399Z,-29.7192,-177.4813,30.82,5.1,mb,,106,0.612,0.47,us,us60007pct,2020-04-18T22:10:24.040Z,"64km SE of Raoul Island, New Zealand",earthquake,9.2,5.5,0.083,49,reviewed,us,us
+2020-02-04T13:02:45.059Z,-33.204,-179.0863,35,4.5,mb,,123,4.069,0.92,us,us70007pee,2020-04-18T22:10:35.040Z,"197km S of L'Esperance Rock, New Zealand",earthquake,7.9,2,0.171,13,reviewed,us,us
+2020-02-04T12:03:11.183Z,21.6826,144.2343,132.71,4.5,mb,,77,5.703,0.64,us,us70007pec,2020-04-18T22:10:35.040Z,"144km NNW of Farallon de Pajaros, Northern Mariana Islands",earthquake,9.6,6.1,0.08,45,reviewed,us,us
+2020-02-04T10:59:41.268Z,-25.5952,179.2856,528.92,4.5,mb,,88,4.398,0.77,us,us70007pea,2020-04-18T22:10:35.040Z,"South of the Fiji Islands",earthquake,15.2,9.4,0.118,21,reviewed,us,us
+2020-02-04T10:41:01.811Z,-2.908,140.5412,35,4.7,mb,,53,6.872,1.18,us,us60007p9r,2020-04-18T22:10:23.040Z,"30km S of Abepura, Indonesia",earthquake,9.5,2,0.096,33,reviewed,us,us
+2020-02-04T09:47:22.854Z,-37.708,176.6053,289.09,5.1,mb,,43,0.875,0.87,us,us60007p8t,2020-08-28T20:07:55.070Z,"15km ENE of Maketu, New Zealand",earthquake,7.6,3.4,0.063,81,reviewed,us,us
+2020-02-04T08:40:10.774Z,-22.7575,-179.3519,500.36,4.5,mb,,122,5.55,1.08,us,us60007p7z,2020-04-18T22:10:23.040Z,"242km SSW of Ndoi Island, Fiji",earthquake,11.7,7.4,0.104,27,reviewed,us,us
+2020-02-04T04:13:09.619Z,5.9479,126.1821,153.56,4.8,mb,,104,1.265,0.58,us,us70007pe0,2020-04-18T22:10:35.040Z,"45km S of Pondaguitan, Philippines",earthquake,10.7,7.7,0.127,19,reviewed,us,us
+2020-02-04T04:03:33.814Z,-18.6978,169.7241,246.98,4.5,mb,,119,3.193,0.63,us,us70007pe5,2020-04-18T22:10:35.040Z,"105km NNE of Isangel, Vanuatu",earthquake,14.8,9.9,0.139,15,reviewed,us,us
+2020-02-04T03:54:55.008Z,-2.9017,139.6059,42.95,4.6,mb,,84,1.162,0.98,us,us60007p43,2020-04-18T22:10:22.040Z,"112km WSW of Abepura, Indonesia",earthquake,8.4,7.8,0.114,23,reviewed,us,us
+2020-02-04T03:17:12.529Z,10.1074,125.9419,54.09,4.6,mb,,100,3.039,0.9,us,us70007pe3,2020-04-18T22:10:35.040Z,"14km NW of Santa Monica, Philippines",earthquake,7.1,5.8,0.086,40,reviewed,us,us
+2020-02-04T01:53:21.111Z,1.0382,91.8243,10,4.9,mb,,71,18.669,0.66,us,us70007pf0,2020-04-18T22:10:36.040Z,"North Indian Ocean",earthquake,14,1.7,0.149,14,reviewed,us,us
+2020-02-04T01:50:28.186Z,-11.3644,166.7193,94.03,4.6,mb,,104,6.93,0.8,us,us70007pdx,2020-04-18T22:10:35.040Z,"120km SE of Lata, Solomon Islands",earthquake,11.2,5.4,0.09,37,reviewed,us,us
+2020-02-04T00:10:56.440Z,19.3141,-68.5781,12,4.5,ml,16,281,1.4394,0.88,pr,pr2020035000,2020-04-18T22:10:22.040Z,"38km NNE of Punta Cana, Dominican Republic",earthquake,4.39,31.61,0.51,8,reviewed,pr,pr
+2020-02-03T21:44:57.521Z,15.7307,119.2637,10,4.5,mb,,111,7.255,1,us,us70007nv4,2020-04-18T22:10:34.040Z,"59km WSW of Ilioilio, Philippines",earthquake,9.9,1.9,0.074,53,reviewed,us,us
+2020-02-03T21:16:47.549Z,-9.3678,114.0841,60.72,4.6,mb,,111,0.894,0.59,us,us70007nv2,2020-04-18T22:10:34.040Z,"86km S of Sidorukun, Indonesia",earthquake,8.2,7.9,0.096,32,reviewed,us,us
+2020-02-03T17:02:57.019Z,23.5082,121.5276,31.25,4.9,mb,,94,0.241,1.36,us,us60007njx,2020-04-18T22:10:20.040Z,"52km S of Hualian, Taiwan",earthquake,4.5,5.9,0.058,94,reviewed,us,us
+2020-02-03T16:47:58.196Z,24.1551,142.906,33.95,4.5,mb,,102,9.33,0.51,us,us70007nuu,2020-04-18T22:10:34.040Z,"173km ESE of Iwo Jima, Japan",earthquake,14,6.1,0.139,18,reviewed,us,us
+2020-02-03T12:25:52.390Z,-53.0884,-64.4668,10,4.5,mb,,151,2.626,0.57,us,us70007nuy,2020-04-18T22:10:34.040Z,"228km ENE of Rio Grande, Argentina",earthquake,6.3,2,0.139,15,reviewed,us,us
+2020-02-03T12:12:38.927Z,-0.2249,125.2118,35,4.9,mb,,40,2.371,1.39,us,us60007ndb,2020-04-18T22:10:20.040Z,"138km SE of Modayag, Indonesia",earthquake,4.9,1.9,0.066,71,reviewed,us,us
+2020-02-03T11:18:07.451Z,-5.1117,134.2057,27.07,5,mb,,42,2.924,1.02,us,us60007ncn,2020-04-18T22:10:19.040Z,"72km N of Dobo, Indonesia",earthquake,6.3,1.5,0.065,76,reviewed,us,us
+2020-02-03T11:14:46.271Z,-18.1009,-179.2763,621.29,4.7,mb,,56,2.567,0.98,us,us60007nck,2020-04-18T22:10:19.040Z,"234km SE of Lambasa, Fiji",earthquake,12.2,6.6,0.031,307,reviewed,us,us
+2020-02-03T10:29:55.598Z,10.6521,-86.0078,10,4.5,mb,,165,0.668,0.81,us,us60007nbd,2020-04-18T22:10:19.040Z,"42km WNW of Sardinal, Costa Rica",earthquake,7.5,2,0.087,39,reviewed,us,us
+2020-02-03T10:25:45.205Z,-55.467,-26.5346,10,4.6,mb,,210,5.868,0.61,us,us70007nur,2020-04-18T22:10:33.040Z,"143km NNE of Visokoi Island, South Georgia and the South Sandwich Islands",earthquake,15.9,1.7,0.173,10,reviewed,us,us
+2020-02-03T05:02:58.166Z,-3.9899,152.278,174.91,4.8,mb,,64,0.23,0.86,us,us60007n5g,2020-04-18T22:10:18.040Z,"25km NNE of Rabaul, Papua New Guinea",earthquake,11.3,5.1,0.079,50,reviewed,us,us
+2020-02-03T02:04:25.623Z,-14.4303,167.9693,10,4.7,mb,,138,7.012,0.96,us,us60007n2m,2020-04-18T22:10:18.040Z,"75km SE of Sola, Vanuatu",earthquake,13.3,1.9,0.104,28,reviewed,us,us
+2020-02-02T22:53:04.147Z,47.6357,152.8988,105.27,4.5,mb,,96,6.279,0.54,us,us60007mzi,2020-04-18T22:10:18.040Z,"Kuril Islands",earthquake,4,6.6,0.077,49,reviewed,us,us
+2020-02-02T21:52:36.267Z,-17.6891,-178.782,543.27,4.9,mb,,79,3.017,0.98,us,us60007mym,2020-04-18T22:10:17.040Z,"240km SE of Lambasa, Fiji",earthquake,12.3,6.3,0.093,36,reviewed,us,us
+2020-02-02T20:07:13.019Z,-34.687,-178.7898,10,4.5,mb,,239,3.708,0.69,us,us70007n51,2020-04-18T22:10:33.040Z,"South of the Kermadec Islands",earthquake,6.7,2,0.204,7,reviewed,us,us
+2020-02-02T19:35:12.611Z,27.5885,140.3477,468.95,4.5,mb,,81,1.706,0.83,us,us60007mw5,2020-04-18T22:10:17.040Z,"193km WNW of Chichi-shima, Japan",earthquake,13.8,9.1,0.094,33,reviewed,us,us
+2020-02-02T18:03:54.708Z,0.4656,-25.1482,10,4.6,mb,,137,21.161,0.9,us,us70007n4w,2020-04-18T22:10:33.040Z,"Central Mid-Atlantic Ridge",earthquake,14.1,1.9,0.132,17,reviewed,us,us
+2020-02-02T16:05:42.494Z,30.7564,104.536,10.04,4.8,mww,,29,4.305,0.56,us,us60007mte,2020-04-18T22:10:17.040Z,"14km SE of Zhaozhen, China",earthquake,6.9,3.7,0.08,15,reviewed,us,us
+2020-02-02T15:08:04.044Z,-31.9615,57.2744,10,4.6,mb,,95,10.969,0.57,us,us70007n4k,2020-04-18T22:10:32.040Z,"Southwest Indian Ridge",earthquake,6.6,1.8,0.11,25,reviewed,us,us
+2020-02-02T11:34:51.816Z,-24.8916,178.6707,578.54,4.5,mb,,106,5.29,0.63,us,us70007n4s,2020-04-18T22:10:33.040Z,"South of the Fiji Islands",earthquake,13.7,8.1,0.15,13,reviewed,us,us
+2020-02-02T11:11:19.264Z,28.7324,130.0734,17.9,4.7,mb,,117,2.472,0.99,us,us60007mqd,2020-04-18T22:10:16.040Z,"70km NE of Naze, Japan",earthquake,5.8,4.8,0.1,30,reviewed,us,us
+2020-02-02T11:00:14.430Z,-31.9116,57.5782,10,4.7,mb,,76,10.965,0.86,us,us70007n48,2020-04-18T22:10:32.040Z,"Southwest Indian Ridge",earthquake,12.3,1.9,0.147,14,reviewed,us,us
+2020-02-02T10:08:48.526Z,-0.5274,-91.383,10,4.6,mb,,87,1.106,0.94,us,us60007mpr,2020-04-18T22:10:16.040Z,"66km NW of Puerto Villamil, Ecuador",earthquake,6,1.9,0.122,20,reviewed,us,us
+2020-02-02T08:37:43.654Z,-10.8544,165.7393,35,4.7,mb,,115,5.873,0.48,us,us60007mn6,2020-04-18T22:10:15.040Z,"18km SW of Lata, Solomon Islands",earthquake,6.4,1.9,0.088,39,reviewed,us,us
+2020-02-02T07:19:13.193Z,-1.612,134.0077,35.74,4.9,mb,,95,2.185,0.73,us,us60007mm4,2020-04-18T22:10:15.040Z,"82km S of Manokwari, Indonesia",earthquake,6.9,6.8,0.074,58,reviewed,us,us
+2020-02-02T06:28:08.815Z,35.5343,138.7864,183.9,4.7,mb,,116,0.987,0.56,us,us60007ml8,2020-04-18T22:10:14.040Z,"10km ENE of Fujikawaguchiko, Japan",earthquake,6.9,5.7,0.053,107,reviewed,us,us
+2020-02-02T05:44:00.093Z,53.3923,-35.2614,10,4.7,mb,,98,9.521,0.58,us,us60007mkk,2020-04-18T22:10:14.040Z,"Reykjanes Ridge",earthquake,9.9,1.9,0.039,203,reviewed,us,us
+2020-02-02T04:24:40.404Z,-16.2478,-175.5027,305.54,4.6,mb,,92,4.28,0.73,us,us70007n3z,2020-04-18T22:10:32.040Z,"190km W of Hihifo, Tonga",earthquake,15,7.2,0.105,27,reviewed,us,us
+2020-02-02T03:32:44.517Z,13.8186,-92.8609,10,5.6,mww,,61,1.227,1.19,us,us60007mj2,2020-04-18T22:10:13.040Z,"105km SW of Ocos, Guatemala",earthquake,4.5,1.7,0.034,83,reviewed,us,us
+2020-02-02T01:01:23.806Z,-61.9426,165.7901,10,4.7,mb,,174,15.705,0.59,us,us70007n42,2020-04-18T22:10:32.040Z,"Balleny Islands region",earthquake,10.7,1.9,0.159,12,reviewed,us,us
+2020-02-01T22:18:50.241Z,0.5935,120.6428,68.89,4.7,mb,,97,0.532,0.91,us,us60007md7,2020-04-18T22:10:11.040Z,"24km SSE of Tinabogan, Indonesia",earthquake,6.7,6.1,0.073,56,reviewed,us,us
+2020-02-01T21:22:22.803Z,39.2259,20.6196,9.33,4.9,mb,,42,0.801,0.85,us,us60007mby,2020-04-18T22:10:11.040Z,"1km ESE of Kanallakion, Greece",earthquake,5.6,3.9,0.059,89,reviewed,us,us
+2020-02-01T19:54:27.875Z,4.2195,126.8242,35,4.5,mb,,113,3.467,1.12,us,us70007mks,2020-04-18T22:10:31.040Z,"199km SE of Sarangani, Philippines",earthquake,9.2,2,0.131,17,reviewed,us,us
+2020-02-01T16:04:05.570Z,-44.7055,-81.2487,10,5,mwr,,240,5.93,0.61,us,us60007m6x,2020-04-18T22:10:10.040Z,"West Chile Rise",earthquake,11,2,,,reviewed,us,guc
+2020-02-01T14:14:04.053Z,5.642,126.6651,88.83,4.5,mb,,160,1.782,0.98,us,us60007m59,2020-04-18T22:10:09.040Z,"96km SE of Pondaguitan, Philippines",earthquake,11.6,6.5,0.121,20,reviewed,us,us
+2020-02-01T12:23:07.490Z,-26.6322,-176.1228,10,4.6,mb,,96,3.054,0.81,us,us70007mkh,2020-04-18T22:10:30.040Z,"South of the Fiji Islands",earthquake,10,1.9,0.164,11,reviewed,us,us
+2020-02-01T10:26:51.495Z,6.7604,-72.9662,155.42,4.5,mb,,62,2.332,0.74,us,us60007m2t,2020-04-18T22:10:09.040Z,"9km NE of Aratoca, Colombia",earthquake,9,9.1,0.036,224,reviewed,us,us
+2020-02-01T09:43:55.801Z,28.9807,95.7207,10,4.9,mb,,37,4.074,0.58,us,us60007m2e,2020-04-18T22:10:09.040Z,"54km SE of Motuo, China",earthquake,7.5,1.9,0.051,120,reviewed,us,us
+2020-02-01T09:09:31.500Z,-2.9219,101.0474,62.54,5,mb,,177,2.38,0.66,us,us60007m22,2020-04-18T22:10:09.040Z,"99km SSW of Sungaipenuh, Indonesia",earthquake,6.5,7.6,0.079,51,reviewed,us,us
+2020-02-01T04:43:50.416Z,-19.3157,-174.5502,37.12,5,mb,,46,4.375,1.14,us,us60007lys,2020-04-18T22:10:08.040Z,"57km NNW of Pangai, Tonga",earthquake,11.5,5.8,0.04,199,reviewed,us,us
+2020-02-01T04:05:39.333Z,-54.0488,-2.1754,10,4.7,mb,,135,17.693,0.35,us,us70007mk3,2020-04-18T22:10:30.040Z,"Southern Mid-Atlantic Ridge",earthquake,10.8,2,0.166,11,reviewed,us,us
+2020-02-01T02:36:54.288Z,-11.4085,118.4269,10,4.7,mb,,94,4.655,0.91,us,us60007lww,2020-04-18T22:10:07.040Z,"203km SSW of Kahale, Indonesia",earthquake,7.6,1.9,0.108,26,reviewed,us,us
+2020-02-01T02:35:57.424Z,-24.4465,-66.9561,160.48,5.2,mww,,31,1.862,1.05,us,us60007lwh,2020-04-18T22:10:07.040Z,"69km WSW of San Antonio de los Cobres, Argentina",earthquake,3.9,4,0.048,41,reviewed,us,us
